@@ -34,13 +34,13 @@
   q:before,q:after{content:'';content:none;}
   a[href^="tel"]{color:inherit;text-decoration:none;padding:5px;font-family:"Futura-lt";font-size:smaller;}
   h3{border-radius:3px;font-family:"Futura-lt";text-align:center;color:#fef5b2;text-shadow:1px 1px 1px black;}
-  html{-webkit-box-sizing:border-box;box-sizing:border-box;background:#162705;background:-webkit-gradient(linear, left top, left bottom, from(#162705), color-stop(25%, #91e842), color-stop(50%, #d2ff52), color-stop(83%, #91e842), to(#162705));background:linear-gradient(to bottom, #162705 0%, #91e842 25%, #d2ff52 50%, #91e842 83%, #162705 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#162705', endColorstr='#162705',GradientType=0 );background:url(https://huntesgardens-barbados.com/assets/bg-41c6abf59e3dea444190a914482285dcf1136a077fb92c9928b5117f765c7569.jpg) 0 0 repeat fixed;}
+  html{-webkit-box-sizing:border-box;box-sizing:border-box;background:#162705;background:-webkit-gradient(linear, left top, left bottom, from(#162705), color-stop(25%, #91e842), color-stop(50%, #d2ff52), color-stop(83%, #91e842), to(#162705));background:linear-gradient(to bottom, #162705 0%, #91e842 25%, #d2ff52 50%, #91e842 83%, #162705 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#162705', endColorstr='#162705',GradientType=0 );background:url(/bg.jpg) 0 0 repeat fixed;}
   body{font-family:'Futura-lc';}
   @media screen and (max-width: 360px){
-    html{background:#d5e809;background:radial-gradient(ellipse at center, #d5e809 38%, #8fc400 64%, #162b02 91%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e809', endColorstr='#162b02',GradientType=1 );background:#2a5c06;background:-webkit-gradient(linear, left top, right top, from(#2a5c06), color-stop(36%, #8fc400), color-stop(51%, #c6e000), color-stop(70%, #8fc400), to(#2a5c06));background:linear-gradient(to right, #2a5c06 0%, #8fc400 36%, #c6e000 51%, #8fc400 70%, #2a5c06 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5c06', endColorstr='#2a5c06',GradientType=1 );background:url(https://huntesgardens-barbados.com/assets/bg-green-seamless-3-8cf22a31be34b94cb2e708ae0c75df3a5d3632bed2c9d3d1b106bafe3a64bf1f.jpg) 0 0 repeat fixed;}
+    html{background:#d5e809;background:radial-gradient(ellipse at center, #d5e809 38%, #8fc400 64%, #162b02 91%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e809', endColorstr='#162b02',GradientType=1 );background:#2a5c06;background:-webkit-gradient(linear, left top, right top, from(#2a5c06), color-stop(36%, #8fc400), color-stop(51%, #c6e000), color-stop(70%, #8fc400), to(#2a5c06));background:linear-gradient(to right, #2a5c06 0%, #8fc400 36%, #c6e000 51%, #8fc400 70%, #2a5c06 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5c06', endColorstr='#2a5c06',GradientType=1 );background:url(https://huntesgardens-barbados.com/assets/bg-green-seamless-3.jpg) 0 0 repeat fixed;}
   }
   @media screen and (max-width: 1024px){
-    html{background:#d5e809;background:radial-gradient(ellipse at center, #d5e809 38%, #8fc400 64%, #162b02 91%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e809', endColorstr='#162b02',GradientType=1 );background:#2a5c06;background:-webkit-gradient(linear, left top, right top, from(#2a5c06), color-stop(36%, #8fc400), color-stop(51%, #c6e000), color-stop(70%, #8fc400), to(#2a5c06));background:linear-gradient(to right, #2a5c06 0%, #8fc400 36%, #c6e000 51%, #8fc400 70%, #2a5c06 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5c06', endColorstr='#2a5c06',GradientType=1 );background:url(https://huntesgardens-barbados.com/assets/bg-green-seamless-3-8cf22a31be34b94cb2e708ae0c75df3a5d3632bed2c9d3d1b106bafe3a64bf1f.jpg) 0 0 repeat fixed;}
+    html{background:#d5e809;background:radial-gradient(ellipse at center, #d5e809 38%, #8fc400 64%, #162b02 91%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e809', endColorstr='#162b02',GradientType=1 );background:#2a5c06;background:-webkit-gradient(linear, left top, right top, from(#2a5c06), color-stop(36%, #8fc400), color-stop(51%, #c6e000), color-stop(70%, #8fc400), to(#2a5c06));background:linear-gradient(to right, #2a5c06 0%, #8fc400 36%, #c6e000 51%, #8fc400 70%, #2a5c06 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5c06', endColorstr='#2a5c06',GradientType=1 );background:url(/bg-green-seamless-3.jpg) 0 0 repeat fixed;}
   }
   [class^="icon-"]{color:#cddc39;font-size:16px;width:30px;height:30px;padding-right:5px;position:relative;}
   li{list-style:none;}
@@ -87,22 +87,22 @@
   @media screen and (max-width: 350px){
     .gallery-link__button{width:100%;text-align:center;margin:0 auto;}
   }
-  .banner__home{background-image:url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);height:280px;width:100%;background-attachment:fixed;background-position:center right;background-repeat:no-repeat;background-size:cover;min-height:40vh;min-width:97vw;-webkit-transition:cubic-bezier(0, 0, 0.2, 1) 0.5s;transition:cubic-bezier(0, 0, 0.2, 1) 0.5s;border-bottom:1px solid #c8db1c;}
+  .banner__home{background-image:url(/cover-photo-4-cropped.jpg);height:280px;width:100%;background-attachment:fixed;background-position:center right;background-repeat:no-repeat;background-size:cover;min-height:40vh;min-width:97vw;-webkit-transition:cubic-bezier(0, 0, 0.2, 1) 0.5s;transition:cubic-bezier(0, 0, 0.2, 1) 0.5s;border-bottom:1px solid #c8db1c;}
   .banner__home .logo{font-family:'Huxtable', serif;font-weight:bold;color:#fef5b2;font-size:115px;line-height:115px;overflow:visible;text-align:center;margin-top:100px;}
   .banner__home{height:480px;}
-  .banner__home .slogan{font-size:30px;line-height:30px;color:#f7c825;font-family:'Huxtable';font-weight:bold;position:relative;text-align:center;text-shadow:#000 2px 2px 2px;letter-spacing:1px;margin:11px 0 0 0;background:url(https://huntesgardens-barbados.com/assets/slogan-a1809b98340647a009d63a3749df059cd0cfb2852743fc3e27b71cf460d4da50.png) center bottom no-repeat;padding-bottom:46px;}
+  .banner__home .slogan{font-size:30px;line-height:30px;color:#f7c825;font-family:'Huxtable';font-weight:bold;position:relative;text-align:center;text-shadow:#000 2px 2px 2px;letter-spacing:1px;margin:11px 0 0 0;background:url(/slogan.png) center bottom no-repeat;padding-bottom:46px;}
   @media screen and (max-width: 500px){
     .banner__home .logo{font-size:80px;line-height:80px;}
-    .banner__home{background-image:url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% bottom right;background-attachment:scroll;}
+    .banner__home{background-image:url(/cover-photo-4-cropped.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% bottom right;background-attachment:scroll;}
   }
   @media screen and (max-width: 1366px){
-    .banner__home{background-image:url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% top;background-attachment:scroll;}
+    .banner__home{background-image:url(/cover-photo-4-cropped.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% top;background-attachment:scroll;}
     .banner__home .logo{font-size:80px;line-height:80px;}
-    .banner__home{background-image:url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% top;background-attachment:scroll;}
+    .banner__home{background-image:url(/cover-photo-4-cropped.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% top;background-attachment:scroll;}
   }
   @media screen and (max-width: 350px){
     .banner__home .logo{font-size:60px;line-height:60px;}
-    .banner__home{background-image:url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% top;background-attachment:scroll;}
+    .banner__home{background-image:url(/cover-photo-4-cropped.jpg);width:100%;background-repeat:no-repeat;background-size:cover;background-position:100% top;background-attachment:scroll;}
   }
   .highlights__grid__image-1,.highlights__grid__image-2,.highlights__grid__image-3,.highlights__grid__image-4{border-top-left-radius:5px;border-top-right-radius:5px;background:#0b0c0080;padding:7px;width:100%;}
   .highlights__grid>div>img{max-width:100%;min-height:100%;-o-object-fit:none;object-fit:none;border:1px solid #f7be1fb3;}
@@ -209,7 +209,7 @@
   img{max-width:100%;}
   .logo{font-family:'Huxtable', serif;font-weight:bold;color:#fef5b2;font-size:125px;line-height:125px;overflow:visible;text-shadow:#50381b 3px 3px 3px;}
   header{width:100%;position:absolute;top:0;display:inline-block;}
-  .slogan{font-size:30px;line-height:30px;color:#f7c825;font-family:'Huxtable';font-weight:bold;position:relative;text-align:center;text-shadow:#000 2px 2px 2px;letter-spacing:1px;margin:11px 0 0 0;background:url(https://huntesgardens-barbados.com/assets/slogan-a1809b98340647a009d63a3749df059cd0cfb2852743fc3e27b71cf460d4da50.png) center bottom no-repeat;padding-bottom:46px;}
+  .slogan{font-size:30px;line-height:30px;color:#f7c825;font-family:'Huxtable';font-weight:bold;position:relative;text-align:center;text-shadow:#000 2px 2px 2px;letter-spacing:1px;margin:11px 0 0 0;background:url(/slogan.png) center bottom no-repeat;padding-bottom:46px;}
   #CDSSCROLLINGRAVE.narrow{width:100%!important;}
   #menuToggle input{width:41px;height:32px;position:absolute;margin:9px;cursor:pointer;opacity:0;z-index:2;-webkit-touch-callout:none;}
   #menuToggle{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;}
@@ -269,8 +269,8 @@
 #CDSSCROLLINGRAVE.narrow{width:282px;}
 
 /*! CSS Used fontfaces */
-@font-face{font-family:'icomoon';src:url(https://huntesgardens-barbados.com/assets/icomoon-af7b5782a23a3a9aef5a88564e44ac9d9faff5c122d14c7a9f724e83da41c9d6.eot?yx87n4);src:url(https://huntesgardens-barbados.com/assets/icomoon-af7b5782a23a3a9aef5a88564e44ac9d9faff5c122d14c7a9f724e83da41c9d6.eot?yx87n4#iefix) format("embedded-opentype"),url(https://huntesgardens-barbados.com/assets/icomoon-275d84308b80998a1100de9e9a413a0183979e6841991f00b4c3d79106c09220.ttf?yx87n4) format("truetype"),url(https://huntesgardens-barbados.com/assets/icomoon-fd228ca33729c186656776f45962c83fcd07617485653a7cea95e4f90df21bee.woff?yx87n4) format("woff"),url(https://huntesgardens-barbados.com/assets/icomoon-c517d451181bea5a029da960d0355c467baa887d919e6a15977e34afd62ec42f.svg?yx87n4#icomoon) format("svg");font-weight:normal;font-style:normal;}
-@font-face{font-family:"Futura-lt";src:url(https://huntesgardens-barbados.com/assets/futuralt-0563d840c816421192ec5b0a586ebc3e615f25d0485080414dddb0f195288c62.ttf) format("truetype");}
-@font-face{font-family:"Huxtable";src:url(https://huntesgardens-barbados.com/assets/huxtable-36be158486972f9b181000a12e16c990c14b03c3bcae110d4454241baca60306.ttf) format("truetype");}
-@font-face{font-family:"Huxtable";src:fonts-url("https://huntesgardens-barbados.com/assets/fonts/huxtable.ttf") format("truetype");}
-@font-face{font-family:"Futura-co";src:url(https://huntesgardens-barbados.com/assets/futuracon-b6df61e35db2cd7ff3e7a5d03fe77e4cb885c0075f42fc0b173ee2a10c6d4d1a.ttf) format("truetype");}
+@font-face{font-family:'icomoon';src:url(/fonts/icomoon.eot?yx87n4);src:url(/fonts/icomoon.eot?yx87n4#iefix) format("embedded-opentype"),url(fonts/icomoon.ttf?yx87n4) format("truetype"),url(fonts/icomoon.woff?yx87n4) format("woff"),url(fonts/icomoon.svg?yx87n4#icomoon) format("svg");font-weight:normal;font-style:normal;}
+@font-face{font-family:"Futura-lt";src:url(/fonts/futuralt.ttf) format("truetype");}
+@font-face{font-family:"Huxtable";src:url(/fonts/huxtable.ttf) format("truetype");}
+@font-face{font-family:"Huxtable";src:fonts-url("/fonts/huxtable.ttf") format("truetype");}
+@font-face{font-family:"Futura-co";src:url(/fonts/futuracon.ttf) format("truetype");}
