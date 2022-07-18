@@ -40,7 +40,7 @@
 
       <div class="location__info__image">
         <!--<svg width="100" height="100" version="1.1" viewBox="0 0 102.83552 102.83551" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"><g transform="translate(2.39 -409.55)" fill="#0083d7" fill-opacity=".2449" stroke="#000" stroke-width="2"><g transform="matrix(.19533 0 0 .19533 -.78236 411.16)" fill="#ff794b" fill-opacity="1" stroke="#000" stroke-width="3.0461"><path d="m502.35 237.15-229.5-229.5c-10.199-10.2-25.5-10.2-35.7 0l-229.5 229.5c-10.2 10.2-10.2 25.501 0 35.7l229.5 229.5c10.2 10.2 25.501 10.2 35.7 0l229.5-229.5c10.2-10.199 10.2-25.499 0-35.7zm-196.35 81.601v-63.75h-102v76.5h-51v-102c0-15.3 10.2-25.5 25.5-25.5h127.5v-63.75l89.25 89.25-89.25 89.25z" fill="#c8db1c" fill-opacity="1" stroke="#000" stroke-width="6.3993"/></g></g></svg>-->
-        <img width="180px" class="info__directions__image" src="/assets/signpost-red-white-7486d244da41a06ec24fa2f9143ea5bfd910db69412e284dbaca02e5dc6cbcb9.svg" alt="Signpost red white">
+        <img width="180px" class="info__directions__image" src="/signpost-red-white.svg" alt="Signpost red white">
       </div>
 
       <div class="footer__column">
