@@ -1,0 +1,573 @@
+@media all {
+  .banner__home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .banner__home {
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  * {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    outline: none;
+
+    &:before, &:after {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+      outline: none;
+    }
+  }
+
+  header {
+    display: block;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+
+  a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  input {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+  }
+
+  [type="checkbox"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  div, span, h1, a, q, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+  }
+
+  q {
+    quotes: none;
+
+    &:before, &:after {
+      content: '';
+      content: none;
+    }
+  }
+
+  .banner__home {
+    background-image: url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);
+    height: 280px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 97vw;
+    -webkit-transition: cubic-bezier(0, 0, 0.2, 1) 0.5s;
+    transition: cubic-bezier(0, 0, 0.2, 1) 0.5s;
+    border-bottom: 1px solid #c8db1c;
+
+    .logo {
+      font-family: 'Huxtable', serif;
+      font-weight: bold;
+      color: #fef5b2;
+      font-size: 115px;
+      line-height: 115px;
+      overflow: visible;
+      text-align: center;
+      margin-top: 100px;
+    }
+    
+
+    height: 480px;
+
+    .slogan {
+      font-size: 30px;
+      line-height: 30px;
+      color: #f7c825;
+      font-family: 'Huxtable';
+      font-weight: bold;
+      position: relative;
+      text-align: center;
+      text-shadow: #000 2px 2px 2px;
+      letter-spacing: 1px;
+      margin: 11px 0 0 0;
+      background: url(https://huntesgardens-barbados.com/assets/slogan-a1809b98340647a009d63a3749df059cd0cfb2852743fc3e27b71cf460d4da50.png) center bottom no-repeat;
+      padding-bottom: 46px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .banner__home {
+      .logo {
+        font-size: 80px;
+        line-height: 80px;
+      }
+
+      background-image: url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% bottom right;
+      background-attachment: scroll;
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+    .banner__home {
+      background-image: url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% top;
+      background-attachment: scroll;
+
+      .logo {
+        font-size: 80px;
+        line-height: 80px;
+      }
+
+      background-image: url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% top;
+      background-attachment: scroll;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .banner__home {
+      .logo {
+        font-size: 60px;
+        line-height: 60px;
+      }
+
+      background-image: url(https://huntesgardens-barbados.com/assets/cover-photo-4-cropped-f6457a10255536fd3f297477a2ca7148b92031d038a5b139d445920cf2498097.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% top;
+      background-attachment: scroll;
+    }
+  }
+
+  q {
+    font-size: 30px;
+    quotes: "“" "”" "‘" "’";
+    padding: 10px 20px;
+    line-height: 1.4;
+
+    &:before {
+      content: open-quote;
+      display: inline;
+      height: 0;
+      line-height: 0;
+      left: -10px;
+      position: relative;
+      top: 5px;
+      color: #fef5b2;
+      font-size: 1.5em;
+    }
+
+    &:after {
+      content: close-quote;
+      display: inline;
+      height: 0;
+      line-height: 0;
+      left: 10px;
+      position: relative;
+      top: 5px;
+      color: #fef5b2;
+      font-size: 1.5em;
+    }
+  }
+
+  .navigation {
+    z-index: 4;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+
+    .menu {
+      display: none;
+      outline: none;
+    }
+  }
+
+  .header__nav-link {
+    margin-top: 10px;
+
+    a {
+      margin-top: 10px;
+      font-size: 21px;
+      line-height: 24px;
+      color: #fff7b2;
+      color: #c8db1c;
+      font-family: 'Futura-lt', sans-serif;
+      margin-top: 10px;
+      padding-top: 10px;
+      -webkit-transition: cubic-bezier(0, 0, 0.2, 1) 0.45s;
+      transition: cubic-bezier(0, 0, 0.2, 1) 0.45s;
+
+      &:hover {
+        color: #FF9800;
+      }
+    }
+  }
+
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 5px 2px black;
+    box-shadow: 0px 0px 5px 2px black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    label {
+      cursor: pointer;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: flex-end;
+      flex-direction: flex-end;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      text-align: right;
+      width: 100%;
+      height: 100%;
+
+      span {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+
+    .menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      position: absolute;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      padding-bottom: 5px;
+      position: relative;
+      opacity: 0;
+      -webkit-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+  }
+
+  #toggle:checked ~ {
+    .menu {
+      -webkit-transition: all 0.6s ease-in-out;
+      transition: all 0.6s ease-in-out;
+      opacity: 1;
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+      pointer-events: all;
+      height: 180px;
+    }
+
+    .burger {
+      background: rgba(0, 0, 0, 0.7);
+      -webkit-box-shadow: 0px 0px 5px 2px black;
+      box-shadow: 0px 0px 5px 2px black;
+      border-bottom: 1px solid #8d7c224d;
+      padding-bottom: 5px;
+    }
+  }
+
+  .burger {
+    -webkit-box-pack: end;
+    -webkit-flex-pack: end;
+    -ms-flex-pack: end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    align-items: center;
+    padding-top: 10px;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+
+  .burger__text {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .nav {
+      > .menu {
+        opacity: 1;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        border-bottom: 1px solid #c8db1cb3;
+
+        a {
+          color: #c8db1c;
+
+          &:hover {
+            color: #FF9800;
+          }
+        }
+      }
+
+      #menuToggle {
+        display: none;
+        opacity: 0;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 1024px) {
+    .nav {
+      > .menu {
+        opacity: 1;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        border-bottom: 1px solid #c8db1cb3;
+
+        a {
+          color: #c8db1c;
+        }
+      }
+
+      #menuToggle {
+        display: none;
+        opacity: 0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .nav {
+      > .menu {
+        display: none;
+
+        a {
+          color: #c8db1c;
+        }
+      }
+
+      #menuToggle .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        opacity: 1;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .logo {
+    font-family: 'Huxtable', serif;
+    font-weight: bold;
+    color: #fef5b2;
+    font-size: 125px;
+    line-height: 125px;
+    overflow: visible;
+    text-shadow: #50381b 3px 3px 3px;
+  }
+
+  header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+  }
+
+  .slogan {
+    font-size: 30px;
+    line-height: 30px;
+    color: #f7c825;
+    font-family: 'Huxtable';
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: #000 2px 2px 2px;
+    letter-spacing: 1px;
+    margin: 11px 0 0 0;
+    background: url(https://huntesgardens-barbados.com/assets/slogan-a1809b98340647a009d63a3749df059cd0cfb2852743fc3e27b71cf460d4da50.png) center bottom no-repeat;
+    padding-bottom: 46px;
+  }
+
+  #menuToggle {
+    input {
+      width: 41px;
+      height: 32px;
+      position: absolute;
+      margin: 9px;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 2;
+      -webkit-touch-callout: none;
+    }
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+
+    .burger .burger-icon {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      padding: 0px 10px;
+
+      .stripe {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #c8db1c;
+        border-radius: 3px;
+        z-index: 1;
+        -webkit-transform-origin: 4px 0px;
+        transform-origin: 4px 0px;
+        -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+        transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1);
+      }
+    }
+
+    span {
+      &:first-child {
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+      }
+
+      &:nth-last-child(2) {
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+      }
+    }
+
+    input:checked ~ .burger > .burger-icon > span {
+      opacity: 1;
+      -webkit-transform: rotate(45deg) translate(-7px, -13px);
+      transform: rotate(45deg) translate(-7px, -13px);
+      background: #c8db1c;
+
+      &:nth-last-child(3) {
+        opacity: 0;
+        -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+        transform: rotate(0deg) scale(0.2, 0.2);
+      }
+
+      &:nth-last-child(2) {
+        -webkit-transform: rotate(-45deg) translate(-5px, 8px);
+        transform: rotate(-45deg) translate(-5px, 8px);
+      }
+    }
+  }
+} // All
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Huxtable";
+  // src: url(https://huntesgardens-barbados.com/assets/huxtable-36be158486972f9b181000a12e16c990c14b03c3bcae110d4454241baca60306.ttf) format("truetype");
+  src: url("/fonts/huxtable.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Huxtable";
+  src: fonts-url("https://huntesgardens-barbados.com/assets/fonts/huxtable.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura-lt";
+  src: url("/fonts/futuralt.ttf") format("truetype");
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="133px" height="167.333px" viewBox="0 0 133 167.333" enable-background="new 0 0 133 167.333" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#C9CAC8" stroke="#000000" stroke-miterlimit="10" d="M106.13,158.199c0,4.137-21.566,7.487-48.172,7.487
+			c-26.605,0-48.172-3.351-48.172-7.487c0-4.138,21.567-7.488,48.172-7.488C84.563,150.711,106.13,154.062,106.13,158.199"/>
+		<polyline fill="#8F5932" stroke="#000000" stroke-miterlimit="10" points="46.95,0.992 56.505,8.883 59.411,0.992 68.966,0.992 
+			68.966,154.273 49.024,154.273 46.95,0.992 		"/>
+		<path fill="#56A033" stroke="#000000" stroke-miterlimit="10" d="M74.806,161.508c0,0,0.879-3.387,2.921-5.598
+			c2.044-2.211,5.841-6.324,5.841-6.324s-7.281,3.254-8.762,4.258c-1.477,1.004-3.406,2.313-3.406,2.313v-9.246l-3.281,6.199
+			c0,0-0.484-4.699,0.605-9.242c1.094-4.543,3.531-11.801,3.531-11.801l-13.262,21.289l-3.652-10.341v9.856l-7.906-15.086
+			l1.945,15.69c0,0-2.524-4.608-5.598-8.147c-3.07-3.539-8.758-7.91-8.758-7.91s3.336,5.226,5.11,11.191
+			c1.773,5.969,1.703,7.547,1.703,7.547l-9.488-5.84l7.054,11.191h35.891"/>
+		<path fill="#82502F" stroke="#000000" stroke-miterlimit="10" d="M61.063,50.398c0,1.715-1.39,3.102-3.105,3.102
+			s-3.105-1.387-3.105-3.102c0-1.715,1.39-3.105,3.105-3.105S61.063,48.683,61.063,50.398"/>
+		<g>
+			<defs>
+				<polygon id="SVGID_1_" points="1.665,69.234 110.462,68.617 131.364,50.301 125.767,44.855 118.75,44.659 124.052,43.445 
+					119.625,39.438 112.333,39.242 117.106,37.254 111.406,30.848 1.833,30.816 11.101,49.003 				"/>
+			</defs>
+			<use xlink:href="#SVGID_1_"  overflow="visible" fill="#FFFFFF"/>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<path clip-path="url(#SVGID_2_)" fill="#B16C39" stroke="#000000" stroke-miterlimit="10" d="M21.001,99.117h-1.148
+				c0.214-0.039,0.421-0.063,0.617-0.063C20.661,99.055,20.837,99.074,21.001,99.117"/>
+			<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M1.833,30.816"/>
+			<use xlink:href="#SVGID_1_"  overflow="visible" fill="none" stroke="#000000" stroke-miterlimit="10"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 18.333 53)" fill="#CC3333" font-family="'MyriadPro-Regular'" font-size="12">Huntes Gardens</text>
+</g>
+</svg>

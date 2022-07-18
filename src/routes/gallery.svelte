@@ -2,7 +2,7 @@
   /* import '../styles/nav.scss'; */
   import '../app.scss'
 
-  import IndexHead from '../components/shared/head_index.svelte'
+  import GalleryHead from '../components/shared/head_gallery.svelte'
   // import Banner from '../components/home/banner.svelte';
   // import BelowBanner from '../components/home/banner-below.svelte';
   // import ThingsToDo from '../components/home/things-to-do.svelte';
@@ -10,10 +10,9 @@
 </script>
 
 <svelte:head>
-  <IndexHead/>
+  <GalleryHead/>
 </svelte:head>
-
 <!-- <Banner/> -->
-<!-- <BelowBanner/> -->
-<!-- <ThingsToDo/> -->
+  <!-- <BelowBanner/> -->
+  <!-- <ThingsToDo/> -->
 <!-- <Footer/> -->
