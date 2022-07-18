@@ -1,19 +1,13 @@
 <script>
   /* import '../styles/nav.scss'; */
   import '../app.scss'
-
-  import IndexHead from '../components/shared/head_index.svelte'
-  // import Banner from '../components/home/banner.svelte';
-  // import BelowBanner from '../components/home/banner-below.svelte';
-  // import ThingsToDo from '../components/home/things-to-do.svelte';
-  // import Footer from '../components/footer.svelte';
+  import Banner from '../components/home/banner.svelte';
 </script>
 
 <svelte:head>
-  <IndexHead/>
+  <title>Hunte's Gardens Barbados | The Most Enchanting Place On Earth</title>
+  <script async src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=267&amp;locationId=1868421&amp;lang=en_US&amp;border=true&amp;shadow=true&amp;display_version=2" data-turbolinks-track="reload" ></script>
 </svelte:head>
 
-<!-- <Banner/> -->
-<!-- <BelowBanner/> -->
-<!-- <ThingsToDo/> -->
+<Banner/>
 <!-- <Footer/> -->
