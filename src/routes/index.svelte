@@ -1,7 +1,7 @@
 <script>
   /* import '../styles/nav.scss'; */
   import '../app.scss'
-  import Banner from '../components/home/banner.svelte';
+  import Banner from '../components/banner/banner--home.svelte';
   import Content from '../components/home/content.svelte';
   import Footer from '../components/footer.svelte';
 </script>
