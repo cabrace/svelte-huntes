@@ -1,0 +1,17 @@
+
+//Major wrapper: body
+.site{
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+
+		background: rgba(0,0,0,0.25);
+	&-content{
+		flex:1;
+		//background: url(/assets/Leaves-Pattern-fix-300px.png) 0 0 repeat fixed;
+		//background: asset-url("bg-green.jpg") 0 0 repeat fixed;
+		//background: #121403ee;// dark on dark setting
+		//background: #0b0c0080;
+		//background: rgba(0,0,0,0.5);
+	}
+}

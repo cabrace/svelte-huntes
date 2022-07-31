@@ -1,0 +1,5 @@
+
+.full-width{
+	@include margin__hor(0px);
+	width: 100% !important;
+}

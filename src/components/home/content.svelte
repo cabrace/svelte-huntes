@@ -53,7 +53,7 @@
 
 
   <section style="margin:70px 0px;">
-    <div style="display:flex;"><a class="gallery-link__button" href="gallery.html">View our photo gallery</a></div>
+    <div style="display:flex;"><a class="gallery-link__button" href="/gallery">View our photo gallery</a></div>
   </section>
 
   <section class="occasions"> 

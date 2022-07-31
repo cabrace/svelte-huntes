@@ -1,0 +1,124 @@
+//Generic percentage calculator for fractional based items.
+// number of sections in grid calculated as a percentage
+@function cp($num-of-sections){
+	@return percentage(1/$num-of-sections); //Get value as a fraction-to-percentage
+}
+
+//Grid sections function
+@mixin gc($num-of-sections){
+	$percent: cp($num-of-sections);
+	grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+}
+
+@mixin grid-sections{
+		&_gc-1{
+			@include gc(1);
+		}
+		&_gc-2{
+			@include gc(2);
+		}
+		&_gc-3{
+			@include gc(3);
+		}
+		&_gc-4{
+			@include gc(4);
+		}
+		&_gc-4{
+			@include gc(4);
+		}
+		&_gc-5{
+			@include gc(5);
+		}
+		&_gc-6{
+			@include gc(6);
+		}
+		&_gc-6{
+			@include gc(6);
+		}
+		&_gc-7{
+			@include gc(7);
+		}
+		&_gc-8{
+			@include gc(8);
+		}
+		&_gc-9{
+			@include gc(9);
+		}
+		&_gc-10{
+			@include gc(10);
+		}
+		&_gc-11{
+			@include gc(11);
+		}
+		&_gc-12{
+			@include gc(12);
+		}
+}
+
+.container{
+  
+	&-grid{
+		display:grid;
+		//@include grid-sections;
+		grid-gap: 10px;
+		grid-auto-flow: column;
+		grid-auto-columns: 300px auto;
+		//grid-template-rows: 2;
+
+		&.gc-1{
+			@include gc(1);
+		}
+		&.gc-2{
+			@include gc(2);
+		}
+		&.gc-3{
+			@include gc(3);
+		}
+		&.gc-4{
+			@include gc(4);
+			
+		}
+		&.gc-4{
+			@include gc(4);
+		}
+		&.gc-5{
+			@include gc(5);
+		}
+		&.gc-6{
+			@include gc(6);
+		}
+		&.gc-6{
+			@include gc(6);
+		}
+		&.gc-7{
+			@include gc(7);
+		}
+		&.gc-8{
+			@include gc(8);
+		}
+		&.gc-9{
+			@include gc(9);
+		}
+		&.gc-10{
+			@include gc(10);
+		}
+		&.gc-11{
+			@include gc(11);
+		}
+		&.gc-12{
+			@include gc(12);
+		}
+	}
+
+	&-grid-inline{
+		display: inline-grid;
+	}
+	&-grid-subgrid{
+		display: subgrid;
+	}
+
+}
+
+.grid-item{
+
+}

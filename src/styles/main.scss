@@ -1,0 +1,139 @@
+/* 
+ITCSS   – Inverted Triangle CSS
+
+Settings  		– Used with preprocessors and contain font, colors definitions, etc.
+Tools     		– Globally used mixins and functions. It’s important not to output any CSS in the first 2 layers.
+Generic   		– Reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS.
+Elements/Base – Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+Objects    	  – Class-based selectors which define undecorated design patterns, for example media object known from OOCSS
+Components		– This is where majority of our work takes place and our UI components(specific) are often composed of Objects and Components
+Utilities 		– Utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+*/
+
+/* Notes on Pre-processor stuff 
+  @see http://krasimirtsonev.com/blog/article/SASS-mixins-extends-and-placeholders-differences-use-cases
+
+  Mose efficient compile : .foo, .bar, .baz { placeholder_stuff }
+	PLACEHOLDER - %placeholder_name 
+	call with   - @extend %placeholder_name
+
+	MIXINS - Use when needed to pass changable variables (see _borders)
+
+	EXTENDS   - .awesome { height:100px; width:100px; } - used when linking similar components: btn-sm, btn-md, btn-lg
+	call with - @extend .awesome
+ */
+
+/*  a_Settings 
+ *  Used with preprocessors and contain font, colors definitions, etc.
+ */
+//@import "a.settings/*";
+
+
+//Get Icomoon icons
+// Imported using rake task icons.rake
+// Ref. https://www.youtube.com/watch?v=X5eT9YOS5S0
+// Ref. https://gist.github.com/uxtronaut/a7c89f7dceee1e4b0f6f#file-icons-rake
+// @import 'icons';
+
+@import "a.settings/_settings.border-radius.scss";
+@import	"a.settings/_settings.cardinal-positions.scss";
+@import	"a.settings/_settings.colours.scss";
+@import	"a.settings/_settings.fonts.scss";
+@import	"a.settings/_settings.media-queries.scss";
+@import	"a.settings/_settings.hamburgers.scss";
+
+/*  b_Tools
+ *  Globally used mixins and functions. It’s important not to output any CSS in the first 2 layers.
+ */
+//@import "b.tools/*";
+
+@import	"b.tools/_tools.animate.scss";
+@import	"b.tools/_tools.borders.scss";
+@import	"b.tools/_tools.flexbox.scss";
+@import	"b.tools/_tools.margins.scss";
+@import	"b.tools/_tools.padding.scss";
+
+/*  c_Generic 
+ *  Reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS.
+ */
+//@import "c.generic/*";
+
+@import	"c.generic/_generic.box-sizing.scss";
+@import	"c.generic/_generic.normalize.scss";
+@import	"c.generic/_generic.reset.scss";
+/*  d_Base 
+ *  Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+ */
+//@import "d.base/*";
+
+@import "d.base/_base.a-links.scss";
+@import "d.base/_base.headings.scss";
+@import "d.base/_base-html.scss";
+@import "d.base/_base.icons.scss";
+@import "d.base/_base.lists.scss";
+@import "d.base/_base.tables.scss";
+@import "d.base/_base.main.scss";
+@import "d.base/_base.paragraph.scss";
+@import "d.base/_base.scrollbar.scss";
+@import "d.base/_base.sections.scss";
+/*  e_Objects
+ *  Class-based selectors which define undecorated design patterns, for example media object known from OOCSS.
+ */
+//@import "e.objects/*";
+
+@import "e.objects/_objects.buttons.scss";
+@import "e.objects/_objects.contain.scss";
+@import "e.objects/_objects.flexbox.scss";
+@import "e.objects/_objects.headings.scss";
+@import "e.objects/_objects.info.scss";
+@import "e.objects/_objects.layer.scss";
+@import "e.objects/_objects.pricing.scss";
+@import "e.objects/_objects.tabs.scss";
+
+//@import "hamburgers";
+
+/*  f_Components 
+ *  This is where majority of our work takes place and our UI components(specific) are often composed of Objects and Components
+ */
+//@import "f.components/*";
+
+@import	"f.components/_components.below-banner.scss";
+@import	"f.components/_components.content.scss";
+@import "f.components/_components.directions__tabs.scss";
+@import "f.components/_components.footer.scss";
+@import "f.components/_components.gallery.scss";
+@import "f.components/_components.hamurger.scss";
+@import "f.components/_components.header.scss";
+@import "f.components/_components.highlights.scss";
+@import "f.components/_components.info.scss";
+@import "f.components/_components.info__directions.scss";
+@import "f.components/_components.leaf.scss";
+@import "f.components/_components.location.scss";
+@import "f.components/_components.occasions.scss";
+@import "f.components/_components.overlay.scss";
+@import "f.components/_components.pricing__directions.scss";
+@import "f.components/_components.quotes.scss";
+@import "f.components/_components.r-tabs.scss";
+@import "f.components/_components.section__heading.scss";
+@import "f.components/_components.site.scss";
+@import "f.components/_components.navigation.scss";
+/*  g_Utilities 
+ *  Utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+ */
+//@import "g.utilities/*";
+
+@import "g.utilities/_utilities.colour-accents.scss";
+@import "g.utilities/_utilities.fonts.scss";
+@import "g.utilities/_utilities_full-width.scss";
+@import "g.utilities/_utilities_hide.scss";
+//@import "base/reset.scss";
+//@import  "base/grid_24.scss";
+@import "style";
+@import "restyle";
+// @import "lightgallery";
+// @import "justifiedGallery";
+// @import "lg-transitions";
+// @import "scratch";
+
+// @import "video-js.css"
+//@import "container.scss";

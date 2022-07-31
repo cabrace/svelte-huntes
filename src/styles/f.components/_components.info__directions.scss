@@ -1,0 +1,55 @@
+.info__directions{
+
+	display:flex;
+	flex-direction:row;
+	flex-grow: 1;
+
+
+	&__heading{
+		font-family: "Futura-co";
+		font-size: 1.4rem;
+		line-height: 36px;
+		color: #FF9800;
+		text-align:center;
+		width: 100%;
+	}
+
+	&__title{
+		font-family: "Futura-co";
+		font-size: 1.4rem;
+		line-height: 36px;
+		padding: 10px;
+		color: #FF9800;
+	}
+
+	&__wrap{
+		width: 40%;
+	}
+
+	&__text{
+		//max-width: 60%;
+
+		//min-width: 100%;
+		//margin: 0 auto;
+		//text-align: center;
+		
+		li {
+			@extend %info;
+			padding: 5px;
+		}
+	}
+
+
+	&__section{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	&__image{
+		border-radius:5px;
+		max-width: 100%;
+		//margin-right:20px;
+	}
+}

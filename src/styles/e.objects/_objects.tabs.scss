@@ -1,0 +1,135 @@
+/*----- Tabs -----*/
+
+$bg-tab: #cddc3914;
+$bg-tab-content: #616a0b;
+
+$border-tab:#616a0b;
+$border-tab-content: #616a0b;
+
+$tab-margin-spacing: 5px;
+
+/*
+.tabs {
+  width: 100%;
+  display: inline-block;
+}
+*/
+
+/*----- Tab Links -----*/
+/* Clearfix */
+/*
+.tab-links {
+  &:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  li {
+    margin: 0px $tab-margin-spacing;
+    float: left;
+    list-style: none;
+		animation: none;
+		 &:first-of-type{
+				margin: 0px 0px;
+				margin-right: $tab-margin-spacing;
+		 }
+
+		 &:last-of-type{
+				margin-right:0px;
+		 }
+
+  }
+  a {
+	z-index: 100;
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    //background: #7FB5DA;	
+		background: #25271980; //#27291b; //$bg-tab; //#616a0b;
+    font-size: 16px;
+    font-weight: 600;
+    //color: #4c4c4c;
+		color: #fef5b2;
+    transition: all linear 0.25s;
+		outline: none;
+		border: 1px dashed #616a0b;
+		border-bottom: 0px;
+	//border-bottom: 1px solid #2d2f21;
+		//border: 1px solid $border-tab-content;
+
+		//border-bottom:2px transparent;
+    &:hover {
+      //background: #a7cce5;
+			//background: #cddc3914;
+			background: #cddc3914; //#616a0b;
+      text-decoration: none;
+			text-shadow: #50381b 2px 2px 2px;
+			//background: #c8db1c;
+	color: #fef5b2;
+
+
+    }
+  }
+}
+*/
+/*
+li.active a {
+  background: #fff;
+  //color: #4c4c4c;
+	color: #c2d300;//#fef5b2;
+	background: #cddc3914; // #616a0b; //#c8db1c;
+	text-shadow: #50381b 2px 2px 2px;
+	border: 1px solid #616a0b;
+	border-bottom: 1px solid #2d2f21;
+	z-index: 100;
+	//border-bottom: 0px solid #fef5b2;
+  &:hover {
+		background: #cddc3914; //#616a0b;
+		//background: #c8db1c;
+    //color: #4c4c4c;
+		color: #fef5b2;
+  }
+}
+*/
+/*----- Content of Tabs -----*/
+/*
+.tab-content {
+  padding: 15px;
+  //border-radius: 3px;
+  box-shadow: (-1px) 1px 1px rgba(0, 0, 0, 0.15);
+  //background: #fff;
+	background: #cddc3914;
+	border: 1px solid $border-tab-content;
+	margin-top: -1px;
+	width:100%;
+	display: block;
+}
+*/
+
+.tab {
+  display: none;
+  &.active {
+    display: block;
+  }
+
+	&__image{
+	
+	}
+
+	&__info{
+		margin: 0 auto;
+
+		&__heading{
+			font-family: "Futura-co";
+			font-size: 1.4rem;
+			line-height: 36px;
+			color: #FF9800;
+			text-align:center;
+			width: 100%;
+		}
+
+		&__text{
+			@extend %info;
+		}
+	}
+}

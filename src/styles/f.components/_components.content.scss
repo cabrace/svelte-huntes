@@ -1,0 +1,26 @@
+.content{
+  @include margin__hor(60px);
+
+	//background: image-url("bg-brilliant.png");
+	//background: image-url("bg-outlets.png");
+	//background: image-url("bg-noisy-net.png");
+	//background: image-url("bg-maze-black.png");
+	//background: image-url("bg-tasky.png");
+	//background: image-url("bg-slash-it.png");
+	//background: image-url("bg-skewed-print.png");
+	//background: image-url("bg-otis-reading.png");
+
+	&--full{
+	@include margin__hor(20px);
+	}
+}
+
+//Added media query for content size change
+@media screen and (max-width: 768px) {
+
+	.content{
+		margin-left: 20px;
+		margin-right:20px;
+	}
+
+}

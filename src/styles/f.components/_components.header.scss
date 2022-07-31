@@ -1,0 +1,114 @@
+.banner{
+	background-image: url("cover-photo-4-cropped.jpg");
+	height: 280px;
+	width: 100%;
+
+  //Default to fixed scrolling for laptop/desktop size
+	background-attachment: fixed;
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	min-height: 40vh;
+	min-width: 97vw;
+
+	@include animate(0.5s);
+	border-bottom: 1px solid $bird-flower;
+
+	@extend %display-flex;
+	@extend %flex-direction-column;
+		.logo{
+			font-family: 'Huxtable', serif;
+			font-weight: bold;
+			color: #fef5b2;
+			font-size: 115px;
+			line-height: 115px;
+			overflow: visible;
+			text-align: center;
+			margin-top:100px;
+		}
+	&__home{
+		height:480px;
+		 @extend .banner;
+		.slogan{
+			font-size: 30px;
+			line-height: 30px;
+			color: #f7c825;
+			font-family: 'Huxtable';
+			font-weight: bold;
+			position: relative;
+			text-align: center;
+			text-shadow: #000 2px 2px 2px;
+			letter-spacing: 1px;
+			margin: 11px 0 0 0;
+			background: url("slogan.png") center bottom no-repeat;
+			padding-bottom: 46px;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.banner{
+		.logo{
+			font-size: 80px;
+			line-height: 80px;
+		}
+		&__home{
+			background-image: url("cover-photo-4-cropped.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 100% bottom right;
+			background-attachment: scroll;
+
+
+		}
+	}
+
+}
+@media screen and (max-width: $laptop-sm) {
+
+	.banner{
+		.logo{
+			font-size: 80px;
+			line-height: 80px;
+		}
+
+			background-image: url("cover-photo-4-cropped.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 100% top;
+			background-attachment: scroll;
+		&__home{
+			background-image: url("cover-photo-4-cropped.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 100% top;
+			background-attachment: scroll;
+		}
+	}
+
+}
+@media screen and (max-width: 350px) {
+
+	.banner{
+		//height: 100px;
+		.logo{
+			font-size: 60px;
+			line-height: 60px;
+		}
+
+		&__home{
+			background-image: url("cover-photo-4-cropped.jpg");
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 100% top;
+			background-attachment: scroll;
+		}
+	}
+
+}

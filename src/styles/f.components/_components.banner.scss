@@ -1,0 +1,113 @@
+//.banner{
+
+	//background-image: image-url("cover-photo-4-cropped.jpg");
+	//height: 280px;
+	////width: 100%;
+
+	////background-attachment: fixed;
+	////background-position: center right;
+	////background-repeat: no-repeat;
+	////background-size: cover;
+
+
+	//width: 500px;
+	//background-repeat: no-repeat;
+	//background-size: cover;
+	//background-position: 100% top;
+	//background-attachment: fixed;
+	////min-height: 40vh;
+
+	//@include animate(0.5s);
+	//border-bottom: 1px solid $bird-flower;
+
+	//&__home{
+		//@extend .banner;
+		//height: 480px;
+
+		//&__text{
+
+			//.logo{
+				//font-family: 'Huxtable', serif;
+				//font-weight: bold;
+				//color: #fef5b2;
+				//font-size: 125px;
+				//line-height: 125px;
+				//padding-left: 10px;
+				//overflow: visible;
+				//text-align: center;
+				//margin-right: 10px;
+				//padding-right: 10px;
+			//}
+			//.slogan{
+
+				//font-size: 30px;
+				//line-height: 30px;
+				//color: #f7c825;
+				//font-family: 'Huxtable';
+				//font-weight: bold;
+				//position: relative;
+				//text-align: center;
+				//text-shadow: #000 2px 2px 2px;
+				//letter-spacing: 1px;
+				//margin: 11px 0 0 0;
+				//background: asset-url("slogan.png") center bottom no-repeat;
+				//padding-bottom: 46px;
+			//}
+		//}
+	//}
+//}
+
+//@media screen and (max-width: 500px) {
+
+	//.banner{
+		//.logo{
+			//font-size: 80px;
+			//line-height: 80px;
+		//}
+
+		//&__home{
+
+		//}
+	//}
+
+//}
+
+//NOTE moved to components.header
+@media screen and (max-width: $laptop-sm) {
+
+	.banner{
+
+		@extend .banner;
+		height: 480px;
+		background-image: url("/cover-photo-4-cropped.jpg") no-repeat center center fixed;
+
+		background-attachment:fixed;
+		background-size:none;
+
+		.logo{
+			font-size: 80px;
+			line-height: 60px;
+		}
+	}
+
+}
+
+@media screen and (max-width: $small) {
+
+	.banner{
+
+	&__home{
+		@extend .banner;
+		height: 480px;
+		background-image: url("/cover-photo-4-cropped.jpg") no-repeat center center fixed;
+
+		background-attachment:fixed;
+		background-size:none;
+	}
+		.logo{
+			font-size: 60px;
+			line-height: 60px;
+		}
+	}
+
+}

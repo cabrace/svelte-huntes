@@ -1,0 +1,11 @@
+%pricing{
+	font-family: "Futura-co";
+  font-size: 1.4rem;
+	line-height:36px;
+	padding:10px;
+	//color: #FF9800;
+	color: #f7c825;
+}
+.pricing{
+	@extend %pricing;
+}

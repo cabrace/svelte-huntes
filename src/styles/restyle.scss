@@ -1,0 +1,697 @@
+//.BLOCK__ELEMENT--MODIFIER
+
+//@font-face{
+//font-family: "Huxtable", sans-serif;
+//src: asset-url("huxtable.ttf") format('truetype');
+//}
+
+
+//TODO : TIDY THIS UP! Then build a GRID system with fallbacks to support with the @supports directive
+
+.accent-*{
+	//font-family: 'Huxtable';
+}
+
+
+.svg-decorative{
+	width: 100%;
+	stroke-width: 1px;
+
+	.leaf{
+
+	}
+}
+
+.leaf{
+	width: 100px;
+	margin: 0 auto;
+	stroke-width: 1px;
+	&-fill{
+		//fill: #cc22efcc;
+
+		//fill: #e10055;
+		//stroke: #3f052e;
+	}
+	&:hover{
+		stroke: $primary-beige;
+	}
+}
+
+
+
+
+#map{
+	//width:100%;
+	height:500px;
+	//flex-grow: 1;
+}
+
+.txt{
+	&-center{
+		text-align:center;
+	}
+	&-right{
+		text-align:right;
+	}
+	&-left{
+		text-align:left;
+	}
+}
+
+.pricing{
+	font-family: "Futura-co";
+	font-size: 1.4rem;
+	line-height:36px;
+	padding:10px;
+	color: #FF9800;
+}
+
+.directions{
+	.img {
+		width: 80px;
+		bottom:0px;
+	}	
+	//margin:20px;
+	border:	1px dashed #ccdf1f99;
+	@include bor-rad(5px);
+
+	& > div > div >  h2{
+		font-color: $primary-text-colour;
+	}
+
+	> div {
+		margin:20px;
+	}
+}
+
+.font-brand{
+	font-family: $font-brand;
+}
+
+.highlight__col{
+
+	&__title{
+
+	}
+
+}
+
+
+.grid-3{
+	display:grid;
+	margin: 40px 0px 20px 0px;
+	grid-template-rows: repeat(auto-fill, [row] 1fr);
+	grid-template-columns: repeat(4, [col] 1fr);
+	grid-column-gap: 10px;
+	color: $primary-beige;
+
+	.text-1{
+
+		font-family: 'Holtwood One SC', serif;
+		font-weight: bold;
+		color: #fff;
+		font-size: 20px;
+		line-height: 24px;
+		padding-left: 10px;
+		overflow: hidden;
+		word-wrap: break-word;
+		font-size:150%;
+		color: #fef5b2;
+		//text-align:center;
+	}
+
+	.text{
+		padding: 10px;
+		//text-align:justify;
+		//text-justify:inter-word;
+	}
+
+	.title{
+		//font-family: 'Holtwood One SC', serif;
+		//font-family: 'Futura-co', serif;
+		font-family: 'Futura-lt', serif;
+		font-weight: bold;
+		//border-top-left-radius: 5px;
+		//border-top-right-radius: 10px;
+		//background-color: #cbdb1d59;
+		//border-bottom: 0px;
+		//font-size: 150%;
+		font-size: 1.2rem;
+		color: $primary-yellow; //#fef5b2;
+		//padding: 5px;
+		//border-bottom: 1px dashed $rio-grande;
+		@include bor-add(bottom, 1px, solid, $trendy-green);
+		word-wrap: break-word;
+		font-weight:500;
+		border-bottom: 2px solid #7c8813;
+		border-top: 1px solid #7c8813;
+	}
+	.title-1{
+		@extend .title;
+		grid-row: 1 / 1;
+	}
+	.title-4{
+		@extend .title;
+		grid-row: 1 / 1;
+		grid-column: 4 / 4;
+	}
+
+	.image{
+		background-attachment: unset;
+		background-position: center center;
+		background-repeat: no-repeat;
+		//background-size: cover;
+		object-fit:	none;
+
+		&-1{
+			@extend .image;
+			background-image: image-url("page1-img1.jpg");
+		}
+		&-2{
+			@extend .image;
+			background-image: image-url("page1-img2.jpg");
+		}
+		&-3{
+			@extend .image;
+			background-image: image-url("page1-img3.jpg");
+		}
+		&-4{
+			@extend .image;
+			background-image: image-url("page1-img4.jpg");
+		}
+	}
+
+	.text{
+		//font-family: 'Futura-lt', sans-serif;
+		font-family: 'Futura-lt', sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+		line-height:1.3rem;
+		transition: ease-in-out(.54,.78,1,.23) .35s;
+		&:hover{
+			font-weight: 400;
+		}
+	}
+
+	.box{
+		//border: 0px;
+		//background-color: transparent;
+		//background-color: #444;
+		//color: #fff;
+		//border-radius: 0px;
+		padding:	10px;
+		//font-size: 120%;
+		//border: 0px solid $accent-green;
+		//background-color: #cddc3914;
+	}
+
+	& > div > img {
+		max-width: 100%;
+		min-height: 100%;
+		object-fit:	none;
+		border: 1px solid #f7be1fb3;
+		border-radius:9px;
+	}
+}
+
+.border{
+	border: 1px solid #c8db1c75;
+	border-radius: 10px;
+}
+.grid-2{
+	display:grid;
+	margin: 20px;
+	grid-template-rows: repeat(1, [row] 1fr);
+	grid-template-columns: repeat(4, [col] 1fr);
+	grid-gap: 5px;
+	//grid-template-areas: "a . . ."
+	//"a . . ."
+	//"a . . ."
+	//"a . . ."
+	//"a . . .";
+	justify-items: center;
+
+	& > img {
+		max-width: 100%;
+	}
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.col{
+
+	& > .title{
+		font-size:150%;
+		color: $accent-green;
+	}
+
+
+}
+
+.a {
+	& > .title{
+		font-size:150%;
+		color: $accent-green;
+	}
+	& > img{
+		background-image: image-url("page1-img1.jpg");
+		background-attachment: unset;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width:100%;
+	}
+	background-color:red;
+	//grid-area: a;
+}
+
+
+.intro-grid-wrap{
+	display:grid;
+	margin: 20px;
+	grid-template-rows: repeat(auto-fill, [row] 1fr);
+	grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+	grid-gap: 5px;
+
+}
+
+.hidden{
+	display:none;
+}
+
+//.box{
+////background-color: #444;
+//color: #fff;
+////border-radius: 5px;
+//padding:	10px;
+//font-size: 120%;
+//border: 1px solid $accent-green;
+//}
+
+.intro-grid-column{
+	grid-template-columns: repeat(4,1fr);
+}
+
+
+.intro-img-1 {
+	background-image: image-url("page1-img1.jpg");
+	background-attachment: unset;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+}
+
+
+.text-1{
+
+	font-family: 'Holtwood One SC', serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+	line-height: 24px;
+	padding-left: 10px;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+.intro-grid-col-1{
+	grid-column: col 1;
+	//background-color: #cddc3914;
+	background-color: #0b0c0080;
+}
+.intro-grid-col-2{
+	grid-column: col 2;
+	//background-color: #cddc3914;
+	background-color: #0b0c0080;
+}
+.intro-grid-col-3{
+	grid-column: col 3;
+	//background-color: #cddc3914;
+	background-color: #0b0c0080;
+}
+.intro-grid-col-3{
+	grid-column: col 3;
+	//background-color: #cddc3914;
+	background-color: #0b0c0080;
+}
+.intro-grid-col-4{
+	grid-column: col 4;
+	//background-color: #cddc3914;
+	background-color: #0b0c0080;
+}
+
+
+//body { 	 
+//font: 12px/20px Arial, Helvetica, sans-serif;
+//color:#717171;
+////min-width:1000px;
+//}
+
+.margin-bottom{
+	margin-bottom:20px;
+}
+nav {
+	display:inline-block; 
+	//z-index:1111; 
+	position:relative; 
+	margin:0 auto; 
+	width:100%; 
+	text-align:center; 
+	padding-bottom:10px;
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	border-bottom: 1px solid #ffeb3bb0; //#c9db1c;
+	//background: asset-url('bg-green-strip.jpg') repeat fixed;
+	//background: #4c5705cc;
+}
+
+article{
+	margin: 0;
+}
+.sale-item{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	border:  1px solid black;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+
+.flex{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pillar{
+	width: 190px;
+	height: 100%;
+}
+
+.wire{
+	&-red{
+		border: 1px solid red;
+	}
+	&-green{
+		border: 1px solid green;
+	}
+	&-blue{
+		border: 1px solid blue;
+	}
+	&-purple{
+		border: 1px solid purple;
+	}
+	&-pink{
+		border: 1px solid pink;
+	}
+	&-yellow{
+		border: 1px solid yellow;
+	}
+}
+
+
+
+.logo{font-family: 'Huxtable', serif; font-weight: bold; color: #fef5b2; font-size: 125px; line-height: 125px; 
+	overflow: visible;
+	//text-shadow: #cadc1ec2 3px 3px 3px;
+	text-shadow: /*#00000099*/#50381b 3px 3px 3px;
+}
+header{
+	width:100%;
+	position:absolute;
+	top:0;
+	display:inline-block;
+}
+
+h1 {
+	//display:inline-block;
+	////z-index:1111;
+	//margin:90px 0px 0 0px;
+	//position:relative;
+}
+//h1.logo {display:block; z-index:1111; position:relative; text-align:center; width:100%;}
+//h1.logo{font-family: 'Huxtable', serif; font-weight: bold; color: #fef5b2; font-size: 125px; line-height: 125px; padding-left: 10px;overflow: visible;text-align:center; }
+
+.slogan {
+	font-size:30px; 
+	line-height:30px; 
+	color: #f7c825; /*#ecc908;*/ 
+	//font-family: 'PT Sans Narrow', sans-serif; 
+	font-family: 'Huxtable';
+	font-weight:bold;
+	//z-index:1111; 
+	position:relative; 
+	text-align:center; 
+	//text-transform:uppercase; 
+	text-shadow: #000 /*#50381b*/ 2px 2px 2px; 
+	letter-spacing:1px; margin:11px 0 0 0; 
+	background:image-url('slogan.png') center bottom no-repeat; 
+	padding-bottom:46px;
+}
+
+.pt-serif{
+	//font-family: 'PT Serif', serif;
+}
+
+
+ul.menu {margin:10px 0px 0px 0px; display:inline--block;}
+
+
+
+//.banner{
+
+	//background-image: image-url("cover-photo-4-cropped.jpg");
+	//height: 280px;
+	//width: 100%;
+
+	//background-attachment: fixed;
+	//background-position: center right;
+	//background-repeat: no-repeat;
+	//background-size: cover;
+
+	//min-height: 40vh;
+	//min-width: 97vw;
+
+	//@include animate(0.5s);
+	//border-bottom: 1px solid $bird-flower;
+
+	//&__home{
+		//@extend .banner;
+		//height: 480px;
+
+		//&__text{
+
+			//.logo{
+				//font-family: 'Huxtable', serif;
+				//font-weight: bold;
+				//color: #fef5b2;
+				//font-size: 125px;
+				//line-height: 125px;
+				//padding-left: 10px;
+				//overflow: visible;
+				//text-align: center;
+				//margin-top:100px;
+			//}
+			//.slogan{
+
+				//font-size: 30px;
+				//line-height: 30px;
+				//color: #f7c825;
+				//font-family: 'Huxtable';
+				//font-weight: bold;
+				//position: relative;
+				//text-align: center;
+				//text-shadow: #000 2px 2px 2px;
+				//letter-spacing: 1px;
+				//margin: 11px 0 0 0;
+				//background: asset-url("slogan.png") center bottom no-repeat;
+				//padding-bottom: 46px;
+			//}
+		//}
+	//}
+//}
+
+//@media only screen and (max-width: 620px) {
+
+//.logo { 
+//font-size: 2em; 
+	//}
+
+	//}
+
+	//Trip-advisor Override
+	#CDSSCROLLINGRAVE.narrow{
+		width:100% !important;
+	}
+
+	#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPBranding dd {width: 100% !important;}
+
+	#menuToggle{
+		//position: relative;
+		//float:right;
+	}
+
+	#menuToggle input
+	{
+		//display: block;
+		width: 41px;
+		height: 32px;
+		position: absolute;
+		margin: 9px;
+		//top: 5px;
+		//left: -5px;
+
+		cursor: pointer;
+
+		opacity: 0; /* hide this */
+		z-index: 2; /* and place it over the hamburger */
+
+		-webkit-touch-callout: none;
+	}
+
+	//Duplicate
+	.burger{
+	label {
+	
+		.burger-icon{
+			display: flex;
+			flex-direction:column;
+			align-items:flex-end;
+			justify-content:flex-end;
+			padding: 10px;
+
+			.stripe{
+				display: block;
+				width: 34px;
+				height: 3px;
+				margin-bottom: 5px;
+				position: relative;
+
+				background: #cdcdcd;
+				border-radius: 3px;
+
+				z-index: 1;
+
+				transform-origin: 4px 0px;
+
+				transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+				background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+				opacity 0.55s ease;
+			}
+		}
+	}
+}
+
+	#menuToggle {
+
+		display: flex;
+		flex-direction:column;
+		align-items:flex-end;
+
+		.burger{
+		.burger-icon{
+			display: inline-flex;
+			flex-direction:column;
+			align-items:flex-end;
+			justify-content:flex-end;
+			padding: 0px 10px;
+
+			.stripe{
+				display: block;
+				width: 30px;
+				height: 3px;
+				margin-bottom: 5px;
+				position: relative;
+
+				//background: #cdcdcd;
+				background: #c8db1c;
+				border-radius: 3px;
+
+				z-index: 1;
+
+				transform-origin: 4px 0px;
+
+				transition: transform 0.6s cubic-bezier(0.77,0.2,0.05,1.0),
+				background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+				opacity 0.55s ease;
+			}
+		}
+	}
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+
+/* Origin
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+//#menuToggle label >input:checked ~ .burger-icon > span
+//{
+  //opacity: 1;
+  //transform: rotate(45deg) translate(-8px, -11px);
+  ////background: #232323;
+	//background: #cdcdcd;
+//}
+
+/*
+ * But let's hide the middle one.
+ */
+//#menuToggle label > input:checked ~ .burger-icon > span:nth-last-child(3)
+//{
+  //opacity: 0;
+  //transform: rotate(0deg) scale(0.2, 0.2);
+//}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+//#menuToggle label > input:checked ~ .burger-icon > span:nth-last-child(2)
+//{
+  //transform: rotate(-45deg) translate(-10px, 8px);
+//}
+
+
+/* DUPLICATE 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ .burger > .burger-icon > span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-7px, -13px);
+  //background: #232323;
+	//background: #cdcdcd;
+	background: #c8db1c;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ .burger > .burger-icon > span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ .burger > .burger-icon > span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(-5px, 8px);
+}

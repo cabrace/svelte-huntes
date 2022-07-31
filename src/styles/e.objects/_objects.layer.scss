@@ -1,0 +1,138 @@
+/*
+ LAYERS 
+
+ This object deals with the styling of a outer container elements
+ for more elements to be placed within
+
+
+ it has the following:
+
+  layer 
+	 	layer--border-dark
+		layer--border-light
+
+	layer--shadow
+		layer--sahdow--border
+
+	all classes created for quick testing purposes also
+*/
+%layer{
+	@include margin__ver(20px);
+	font-size: 1rem;
+	line-height: 24px;
+	color: #fff7b2;
+	font-family: $font-body;
+	padding-top: 10px;
+	@include animate(1.2s);
+	padding: 10px;
+	text-align: center;
+	font-weight: 300;
+	@include pad__ver(15px);
+	@include bor-rad(5px);
+	background: #0b0c0080;
+}
+ .layer{
+	 @extend %layer;
+ } 
+
+%layer--light{
+	@extend %layer;
+  background: #0b0c0035;
+}
+.layer--light{
+	@extend %layer--light;
+}
+
+%layer--flat{
+	@extend %layer--light;
+	border: 1px solid #293303;
+  box-shadow:none;
+}
+.layer--flat{
+	@extend %layer--flat;
+}
+
+
+%layer--medium{
+	@extend %layer;
+  background: #0b0c0060;
+}
+
+
+
+
+//Regular layers
+%layer--border-dark{
+	@extend %layer;
+	border: 1px solid #000;
+}
+ .layer--border-dark{
+	@extend %layer--border-dark;
+ }
+
+
+%layer--border-light{
+	border: 1px solid #ccdf1f99;
+}
+ .layer--border-light{
+ 	@extend %layer--border-light;
+ }
+
+//Shadowed Layers
+%layer--shadow{
+	@extend %layer;
+	box-shadow: 0px 0px 5px 2px black;
+}
+.layer--shadow{
+	@extend %layer--shadow;
+}
+
+
+%layer--shadow--border{
+	@extend %layer--shadow;
+	border: 1px solid #ccdf1f33;
+}
+
+
+  //Duplicate of info__banner, renaming to layer--shadow--acc
+	.info__well{
+		@extend %info;
+		box-shadow: inset 0px 0px 5px 2px black;
+	//background: image-url('voronoi.png') 0 0 repeat;
+
+		&--accent{
+			@extend .info__well;
+			border: 1px solid #ccdf1f33;
+		}
+	}
+
+
+  .info__decorative{
+    @extend %info;
+    @include margin__ver(0px);
+    @include pad__ver(0px);
+    @include pad__hor(0px);
+    margin-bottom: -10px;
+    padding-top:10px;
+    background-color:transparent;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+  }
+
+	//.info__banner{
+		//@extend %info;
+		//box-shadow: inset 0px 0px 5px 2px black;
+	//}
+
+  .info__gallery{
+   @extend %info;
+   @include margin__ver(0px);
+   @include margin__hor(0px);
+   @include pad__hor(0px);
+   @include pad__ver(0px);
+    background-color:transparent;
+    border:8px solid #1e3103;
+    border-radius:0px;
+  }
+

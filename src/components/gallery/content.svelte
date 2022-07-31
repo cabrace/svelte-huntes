@@ -54,7 +54,7 @@ import "$lib/lightgallery/css/lg-zoom.css";
 import "$lib/justifiedgallery/css/justifiedGallery.css";
 
 // Import image mappings from assets folder
-const imageList = import.meta.glob("../../../static/gallery/375/*.jpg");
+let imageList = import.meta.glob("../../../static/gallery/375/*.jpg");
 
 let gallery;
 let justOptions = {
@@ -97,28 +97,12 @@ function basename(path) {
 }
 
 
-	// let img;
-	// let img_width;
-	// let img_height;
-	// let img_src;
-	// let img_width_nat;
-	// let img_width_client;
-	// let img_width_offset;
-//
-// function handleImageLoad(){
-  // console.log(img)
-	// img_src = img.src;
-	// img_width = img.width;
-	// img_width = img.height;
-	// img_width_client = img.clientWidth;
-	// img_width_nat = img.naturalWidth;
-	// img_width_offset = img.offsetWidth;
-// }
-
 let images = [];
-for (const image in imageList){
+for (let image in imageList){
   images.push(basename(image))
+    console.log(basename(image))
 }
+
 
 // for (const image in imageList) {
     // imageList[image]().then(({ default: imageUrl }) => {
@@ -185,13 +169,12 @@ for (const image in imageList){
     <div class="gallery__outer">
 
       <div id="lightgallery" class="demo list-unstyled row" style="border:5px solid #000; border-radius:0px;">
-
         {#each images as image}
-          <div data-responsive="/gallery/375/{image} 375,/gallery/480/{image} 480,/gallery/800/{image} 800" data-src="/gallery/800/{image}" data-sub-html=" ">
-            <a href="/gallery/800/{image}" data-download-url="false">
-              <img class="img-responsive" src="/gallery/375/{image}" alt="{image}" />
-            </a>
-          </div>
+            <div data-responsive="/gallery/375/{image} 375,/gallery/800/{image} 800" data-src="/gallery/800/{image}" data-sub-html=" ">
+              <a href="/gallery/800/{image}" data-download-url="false">
+                <img class="img-responsive" src="/gallery/375/{image}" alt="{image}" />
+              </a>
+            </div>
         {/each}
 
       </div>

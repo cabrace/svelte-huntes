@@ -1,0 +1,86 @@
+.occasions{
+	//margin-top:60px;
+	//margin-bottom: 20px;
+	//padding: 30px 0px;
+	@extend %display-flex;
+	@extend %flex-direction-column;
+	//@extend %justify-content-center;
+	@extend %align-items-center;
+	@include bor-rad(5px);
+
+
+	&__block{
+		@extend %layer--light;
+		margin-top: 0px;
+
+		&__heading{
+			@extend %heading;
+			color: #f7c825;
+			font-size: 30px;
+			//font-family: "Huxtable";
+			//@include margin__single(bottom,60px);
+		}
+
+		&__text{
+			@extend %layer--shadow--border;
+			@include pad__hor(20px);
+			&__inner{
+				@include pad__hor(20px);
+				text-align:center;
+			}
+		}
+	}
+	&__info{
+	  margin-top: 20px;
+		//@include bor__ver(1px, solid, #404f05);
+	}
+
+	&__image{
+		//display: flex;
+		//flex-direction: row;
+		//justify-content:center;
+	}
+
+	//.leaf{
+		//@extend %align-items-center;
+		//&-fill{
+			////fill: #cc22efcc;
+			//fill: #e10055;
+			//stroke: #3f052e;
+
+			////fill: #c8d612;
+			////stroke: #3a5608;
+		//}
+	//}
+
+}
+//.leaf{
+	//@extend %align-items-center;
+	//&-fill{
+		////fill: #cc22efcc;
+		//fill: #e10055;
+		//stroke: #3f052e;
+
+		////fill: #c8d612;
+		////stroke: #3a5608;
+	//}
+//}
+
+ul.occasions{
+
+	background: #0b0c0080;
+	-webkit-box-shadow: 0px 0px 5px 2px black;
+	box-shadow: 0px 0px 5px 2px black;
+	border: 1px solid #ccdf1f33;
+	width: 100%;
+
+	li.occasion{
+		padding: 10px 0px;
+    font-family: "Futura-co";
+    font-size: 25px;
+    color: #f7c825;
+		&:hover{
+			color: #ff9800;
+		}
+	}
+}

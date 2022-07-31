@@ -1,11 +1,52 @@
 <script>
+import jQuery from 'jquery';
+import { onMount } from "svelte"; 
+// import Map from '../map.svelte';
 
-  // window.dataLayer = window.dataLayer || [];
-  // function gtag(){dataLayer.push(arguments);}
-  // gtag('js', new Date());
-//
-  // gtag('config', 'UA-136740387-1');
+  
+import "$lib/responsive-tabs/css/responsive-tabs.css";
+
+  const initMap = () => {
+      let huntes = {lat: 13.193377, lng: -59.551091};
+
+      let map = new window.google.maps.Map(document.getElementById('map'), {
+        zoom: 13,
+        center: huntes
+      });
+
+      let marker = new google.maps.Marker({
+        position: huntes,
+        map: map
+      });
+    }
+
+
+onMount(async()=> {
+    console.log("Directions Mounted")
+    window.jQuery = jQuery;
+    /* window.initMap = this.initMap; */
+    
+  
+      //Tag manager
+      // window.dataLayer = window.dataLayer || [];
+      // function gtag(){dataLayer.push(arguments);}
+      // gtag('js', new Date());
+      // gtag('config', 'UA-136740387-1');
+
+     window.initMap = initMap;
+
+    // const responsiveTabs = await import('$lib/responsive-tabs/js/jquery.responsiveTabs.js');
+
+    // let tabs = window.jQuery("#responsiveTabsDemo");
+    // tabs.responsiveTabs('activate', 0);
+
+
+});
 </script>
+
+<svelte:head>
+<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsVMUiCe8am-w83iXrXJMniVvhFk9ioxc&callback=initMap" on:load={initMap}></script>
+</svelte:head>
 <section class="content">
 
 	<!--<div class="info__well">-->
@@ -18,23 +59,8 @@
 	<div id="responsiveTabsDemo" class="info__well--noshadow tabs">
 
 	<section class="map"> 
-	<div id="map"></div>
-	<script>
-		function initMap() {
-				var huntes = {lat: 13.193377, lng: -59.551091};
-
-				var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 13,
-				center: huntes
-				});
-				var marker = new google.maps.Marker({
-				position: huntes,
-				map: map
-				});
-}
-
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsVMUiCe8am-w83iXrXJMniVvhFk9ioxc&callback=initMap"></script>
+	<div id="map" style="width:300px;height:300px;"></div>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsVMUiCe8am-w83iXrXJMniVvhFk9ioxc&callback=initMap"></script> -->
 	</section>
 
 

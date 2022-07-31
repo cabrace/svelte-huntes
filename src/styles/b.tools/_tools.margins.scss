@@ -1,0 +1,22 @@
+/*
+====================
+ Margins
+====================
+*/
+
+// Mixins
+
+@mixin margin__hor($size){
+	 margin-left: $size;
+   margin-right: $size;
+}
+
+@mixin margin__ver($size){
+	 margin-top: $size;
+   margin-bottom: $size;
+}
+
+@mixin margin__single($direction, $size){
+	margin-#{$direction}: $size;
+}
+

@@ -1,0 +1,115 @@
+%btn{
+		cursor:pointer;
+		display:flex;
+		justify-content: center;
+		align-items:center;
+		//border: 1px dashed #ccdf1f99;
+		@include pad__ver(20px);
+		//font-family: "Futura-co";//$font-body;
+		font-family: "Huxtable";//$font-body;
+		color: $primary-beige;
+		//font-weight:bold; 
+		font-size:25px; 
+		line-height:36px; 
+		@include animate(0.5s);
+		//text-shadow: 1px 1px 1px black;
+		background-color: #0b0c0080; //#c8cf19;
+		border-radius: $bor-reg;
+		//background: url(/assets/Leaves-Pattern-fix-300px.png) 0 0 repeat fixed;
+		@include pad__hor(15px);
+		border: 1px solid #c8db1c;
+		box-shadow: 0px 0px 5px 2px black;
+		font-weight:300;
+		&:hover{
+			background-color: #c8cf19;
+			box-shadow: 0px 0px 2px 1px black;
+			color:white;
+			&:before{
+				content: " ";
+				background-color: rgba(0,0,0,0.5);
+			}
+		}
+	&-full{
+		@extend %btn;
+		width: 100%;
+	}
+	&-50{
+		@extend %btn;
+		width: 50%;
+		margin: 0 auto;
+	}
+	&-60{
+		@extend %btn;
+		width: 60%;
+		margin: 0 auto;
+	}
+	&-80{
+		@extend %btn;
+		width: 80%;
+		margin: 0 auto;
+	}
+	&-40w{
+		@extend %btn;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+.btn{
+	@extend %btn;
+	&-full{
+		@extend %btn-full;
+	}
+	&-50{
+		@extend %btn-50;
+	}
+	&-60{
+		@extend %btn-60;
+	}
+	&-80{
+		@extend %btn-80;
+	}
+}
+
+//.btn{
+		//cursor:pointer;
+		//display:flex;
+		//justify-content: center;
+		//align-items:center;
+		////border: 1px dashed #ccdf1f99;
+		//@include pad__ver(20px);
+		//font-family: "Futura-co";//$font-body;
+		//color: $primary-beige;
+		////font-weight:bold; 
+		//font-size:25px; 
+		//line-height:36px; 
+		//@include animate(0.5s);
+		////text-shadow: 1px 1px 1px black;
+		//background-color: #0b0c0080; //#c8cf19;
+		//border-radius: $bor-reg;
+		////background: url(/assets/Leaves-Pattern-fix-300px.png) 0 0 repeat fixed;
+		//@include pad__hor(15px);
+		//border: 1px solid #c8db1c;
+		//box-shadow: 0px 0px 5px 2px black;
+		//font-weight:300;
+		//&:hover{
+			//background-color: #c8cf19;
+			//box-shadow: 0px 0px 2px 1px black;
+			//color:white;
+			//&:before{
+				//content: " ";
+				//background-color: rgba(0,0,0,0.5);
+			//}
+		//}
+	//&-full{
+		//@extend .btn;
+	//}
+	//&-50{
+		//@extend .btn;
+		//width: 50%;
+//margin: 0 auto;
+	//}
+//}
+
+
+

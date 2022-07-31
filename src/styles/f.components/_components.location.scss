@@ -1,0 +1,99 @@
+.location{
+
+	&__block{
+		@extend %layer--light;
+
+		&__heading{
+			@extend %heading;
+			font-size: 30px;
+		}
+
+		&__text{
+			@extend %layer--shadow--border;
+			@include pad__hor(20px);
+			&__inner{
+				@include pad__hor(20px);
+				text-align:left;
+			}
+		}
+		&__button{
+			// Note unique case here also see : conponents.gallery__button
+			@extend %btn-40w;
+			//width: 100%;
+			margin: 0 auto;
+			//width: 100%;
+			padding: 10px 40px;
+			text-align:center;
+			&:hover{
+			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), asset-url("bg-map-overlay.jpg");
+			//opacity: 0.3;
+			//color: #f7c825;
+			}
+		}
+	}
+
+	&__info{
+		margin-top: 30px;
+		margin-bottom:0px;
+		@extend %layer;
+		@extend %display-flex;
+		@extend %flex-direction-row;
+		@extend %align-items-center;
+		@extend %justify-content-space-between;
+		padding: 10px;
+
+		&__admission{
+			@extend %layer--shadow--border;
+			&--pricing{
+				@extend %pricing;
+			}
+		}
+
+		&__directions{
+			text-align:center;
+		}
+		&__image{
+			margin: 20px;
+		}
+		&__button{
+			// Note unique case here also see : conponents.gallery__button
+			@extend %btn-40w;
+			//width: 100%;
+			margin: 0 auto;
+			&:hover{
+			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), asset-url("bg-map-overlay.jpg");
+			//opacity: 0.3;
+			//color: #f7c825;
+			}
+		}
+	}
+
+	&__social{
+		@extend %layer--light;
+		margin-bottom: 0px;
+		padding:0px;
+		padding-top:20px;
+		&__tripadvisor{
+			@extend %layer--shadow--border;
+		}
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	.location__block__text{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.location__info{
+		flex-direction:column;	
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+}

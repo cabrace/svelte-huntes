@@ -1,0 +1,36 @@
+  .below-banner{
+    @extend %display-flex;
+		@extend %flex-direction-row;
+		@extend %justify-content-center;
+
+		&__text{
+			@extend %layer--shadow--border;
+			width:95%;
+			padding: 20px;
+			margin-top: 20px;
+			margin-bottom: 0px;
+			@include pad__hor(30px);
+		}
+
+		&__text__intro{
+			@extend %layer--shadow--border;
+			width:100%;
+			padding: 30px;
+			margin-top: 30px;
+			margin-bottom: 0px;
+			@include pad__hor(30px);
+     &__inner{
+				text-align: left;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+		}
+  }
+
+	@media screen and (max-width: 768px ){
+		.below-banner__text__intro{
+			padding-left:0px;
+			padding-right:0px;
+		}
+
+	}

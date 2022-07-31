@@ -1,0 +1,10 @@
+.content{
+  @include margin__hor(20px);
+	&--boxed{
+		width: 880px;
+	}
+	&--full{
+		width: 100%;
+		@extend .content;
+	}
+}

@@ -1,0 +1,29 @@
+q{
+  font-size: 30px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+q:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 5px;
+  color: #fef5b2;
+  font-size: 1.5em;
+}
+q:after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  color: #fef5b2;
+  font-size: 1.5em;
+}

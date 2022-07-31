@@ -1,0 +1,13 @@
+// Here we are using the generic icon- class to style settings. this is pretty broad and could be narrowed down later.
+[class^="icon-"], [class*=" icon-"] {
+ color: #cddc39;
+ font-size: 16px;
+ width: 30px;
+ height: 30px;
+ padding-right: 5px;
+ position:relative;
+}
+
+i{
+	//padding: 0 5px;
+}

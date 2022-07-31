@@ -1,0 +1,78 @@
+
+  //%info{
+    //@include margin__ver(20px);
+    //font-size: 1rem;
+    //line-height: 24px;
+    //color: #fff7b2;
+    //border: 1px solid transparent;
+    //font-family: $font-body;
+    //padding-top: 10px;
+    //@include animate(1.2s);
+    //padding: 10px;
+    //text-align: center;
+    //font-weight: 300;
+    //@include pad__ver(15px);
+    //@include bor-rad(5px);
+	////border: 1px solid #c8db1c5e;
+    //background-color:#cddc3914;
+  //}
+
+
+  //.info{
+   //@extend %info;
+  //}
+
+	//.info__directions{
+   //@extend %info;
+	//}
+
+  ////Duplicate of info__banner, renaming
+	//.info__well{
+		//@extend %info;
+		//box-shadow: inset 0px 0px 5px 2px black;
+	////background: image-url('voronoi.png') 0 0 repeat;
+
+		//&--accent{
+			//@extend .info__well;
+			//border: 1px solid #ccdf1f33;
+		//}
+	//}
+
+
+  //.info__decorative{
+    //@extend %info;
+    //@include margin__ver(0px);
+    //@include pad__ver(0px);
+    //@include pad__hor(0px);
+    //margin-bottom: -10px;
+    //padding-top:10px;
+    //background-color:transparent;
+    //margin-left:auto;
+    //margin-right:auto;
+    //width:80%;
+  //}
+
+ //.vine{
+   //[>fill:#c8db1c;<]
+   //fill:#fef5b2;
+   //[>fill: #616a0b;<]
+  //}
+  //.svg-full{
+    //width:70%;
+  //}
+  //.svg-deco-baseline{
+    //fill:#000;
+    //stroke:#000;
+  //}
+
+  //.info__gallery{
+   //@extend %info;
+   //@include margin__ver(0px);
+   //@include margin__hor(0px);
+   //@include pad__hor(0px);
+   //@include pad__ver(0px);
+    //background-color:transparent;
+    //border:8px solid #1e3103;
+    //border-radius:0px;
+  //}
+

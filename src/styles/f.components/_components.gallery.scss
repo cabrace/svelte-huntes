@@ -1,0 +1,52 @@
+.gallery{
+	@extend %layer--medium;
+
+	&__outer{
+		@extend %layer;
+		//background: #000;
+		padding:0px;
+		//border: 1px solid #f7be1fb3;
+		border: 1px solid #c8db1c;
+		border-radius: 0px;
+		@include margin__ver(0px);
+	}
+
+	&-link{
+		&__leaf{
+			width: 90px;
+			//margin:10px auto;
+			@extend %leaf;
+			.fill{
+				@extend %leaf-fill;
+			}
+		}
+
+		&__button{
+			// Note unique case here also see : conponents.location__button
+			@extend %btn-40w;
+			text-align:center;
+			margin:0 auto;
+			//display: inline-block;
+			a{
+			}
+		}
+	}
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+  .gallery{
+		&-link{
+			&__button{
+				width: 100%;
+				text-align: center;
+				margin:0 auto;
+			}
+		}
+	}
+}
+
+
+

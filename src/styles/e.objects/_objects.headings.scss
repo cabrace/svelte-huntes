@@ -1,0 +1,19 @@
+%heading{
+	//border: 1px dashed #ccdf1f99;
+	//border-radius: $bor-reg;
+	//@include pad__ver(20px);
+	//font-family: $font-body;
+	font-family: $font-brand;
+	text-align:center;
+	color: $primary-text-colour;
+	font-weight:bold; 
+	font-size:40px; 
+	line-height:36px; 
+}
+
+
+%heading--noshadow{
+	@extend %heading;
+	text-shadow: 1px 1px 1px black;
+}
+

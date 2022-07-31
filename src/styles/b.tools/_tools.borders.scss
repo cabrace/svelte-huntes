@@ -1,0 +1,44 @@
+/*
+====================
+ Borders 
+====================
+*/
+
+// B O R D E R			L-I-N-E-S 
+
+
+@mixin bor__ver($size, $style, $colour){
+		border-top: $size $style $colour;
+		border-bottom: $size $style $colour;
+}
+
+// [ADD BORDER] [WITH COLOUR] dynamically to any top-bottom-left-right [SIDE]
+// Use global $N,$S,$W,$E... for corresponding cardinal locations found in settings
+@mixin bor-add($pos,$size,$style,$colour){
+	 border-#{$pos}: $size $style $colour;
+}
+
+//Used to [REMOVE BORDER] from [SPECIFIC SIDE]
+@mixin bor-sub($pos){
+	 border-#{$pos}: 0px;
+}
+
+//[ADD] border [WITHOUT COLOUR]
+@mixin bor-add-trans($pos,$size){
+	 border-#{$pos}: $size solid transparent;
+}
+
+
+// B O R D E R			R-A D-I-U-S
+@mixin bor-rad($size){
+	 border-radius: $size;
+}
+
+// [ADD BORDER] to any location with all attributes
+// Use global $NE,$SW,$SE... for corresponding cardinal locations found in settings
+@mixin bor-rad-pos($pos,$size,$style,$colour){
+	 border-#{$pos}: $size $style $colour;
+}
+
+
+

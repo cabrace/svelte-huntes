@@ -1,0 +1,9 @@
+//Specific Link settings
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+  /* Additional css `propery: value;` pairs here */
+	padding: 5px;
+    font-family: "Futura-lt";
+    font-size: smaller;
+}

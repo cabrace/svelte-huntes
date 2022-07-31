@@ -1,0 +1,113 @@
+html{
+	//Fallback
+	box-sizing: border-box;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#162705+0,91e842+25,d2ff52+50,91e842+83,162705+100 */
+	background: #162705; /* Old browsers */
+	background: -moz-linear-gradient(top, #162705 0%, #91e842 25%, #d2ff52 50%, #91e842 83%, #162705 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #162705 0%,#91e842 25%,#d2ff52 50%,#91e842 83%,#162705 100%); /* Chrome105,Safari5.1-6 */
+	background: linear-gradient(to bottom, #162705 0%,#91e842 25%,#d2ff52 50%,#91e842 83%,#162705 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#162705', endColorstr='#162705',GradientType=0 ); /* IE6-9 */
+
+	//background: url("bg-green-seamless-3.jpg") 0 0 repeat fixed;
+	background: url("bg.jpg") 0 0 repeat fixed;
+	//width: 100vh;
+	//background-size: cover;
+}
+
+body{
+	font-family: 'Futura-lc';
+}
+
+@media screen and (max-width: 360px) {
+
+	html{
+
+	//Radial Gradient
+	background: #d5e809;
+	background: -moz-radial-gradient(center, ellipse cover, #d5e809 38%, #8fc400 64%, #162b02 91%);
+	background: -webkit-radial-gradient(center, ellipse cover, #d5e809 38%,#8fc400 64%,#162b02 91%);
+	background: radial-gradient(ellipse at center, #d5e809 38%,#8fc400 64%,#162b02 91%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e809', endColorstr='#162b02',GradientType=1 );
+
+	//Horizontal gradient
+	background: #2a5c06;
+	background: -moz-linear-gradient(left, #2a5c06 0%, #8fc400 36%, #c6e000 51%, #8fc400 70%, #2a5c06 100%);
+	background: -webkit-linear-gradient(left, #2a5c06 0%,#8fc400 36%,#c6e000 51%,#8fc400 70%,#2a5c06 100%);
+	background: linear-gradient(to right, #2a5c06 0%,#8fc400 36%,#c6e000 51%,#8fc400 70%,#2a5c06 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5c06', endColorstr='#2a5c06',GradientType=1 );
+
+
+	background: url("bg-green-seamless-3.jpg") 0 0 repeat fixed;
+	//body:before {
+  //content: "";
+  //display: block;
+  //position: fixed;
+	//left: 0;
+	//top: 0;
+	//width: 100%;
+	//height: 100%;
+  //z-index: -10;
+  //background: url(photos/2452.jpg) no-repeat center center;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+	//}
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	html{
+
+	//Radial Gradient
+	background: #d5e809;
+	background: -moz-radial-gradient(center, ellipse cover, #d5e809 38%, #8fc400 64%, #162b02 91%);
+	background: -webkit-radial-gradient(center, ellipse cover, #d5e809 38%,#8fc400 64%,#162b02 91%);
+	background: radial-gradient(ellipse at center, #d5e809 38%,#8fc400 64%,#162b02 91%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e809', endColorstr='#162b02',GradientType=1 );
+
+	//Horizontal gradient
+	background: #2a5c06;
+	background: -moz-linear-gradient(left, #2a5c06 0%, #8fc400 36%, #c6e000 51%, #8fc400 70%, #2a5c06 100%);
+	background: -webkit-linear-gradient(left, #2a5c06 0%,#8fc400 36%,#c6e000 51%,#8fc400 70%,#2a5c06 100%);
+	background: linear-gradient(to right, #2a5c06 0%,#8fc400 36%,#c6e000 51%,#8fc400 70%,#2a5c06 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5c06', endColorstr='#2a5c06',GradientType=1 );
+
+
+			//This keeps a fixed background
+			//background-position: center;
+			//background-repeat: no-repeat;
+			//background-size: cover;
+			//position: fixed;
+			//top: 0px;
+			//bottom: 0px;
+			//left: 0px;
+			//right: 0px;
+			//z-index: -1;
+			//-webkit-transform: translateZ(0);
+			//pointer-events: none;
+
+	background: url("bg-green-seamless-3.jpg") 0 0 repeat fixed;
+
+	//ref: https://stackoverflow.com/questions/26372127/background-fixed-no-repeat-not-working-on-mobile
+	//body:before {
+  //content: "";
+  //display: block;
+  //position: fixed;
+	//left: 0;
+	//top: 0;
+	//width: 100%;
+	//height: 100%;
+  //z-index: -10;
+  //background: url(photos/2452.jpg) no-repeat center center;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+//}
+	}
+
+}

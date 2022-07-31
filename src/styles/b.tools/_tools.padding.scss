@@ -1,0 +1,22 @@
+/*
+====================
+ Padding
+====================
+*/
+
+// Mixins
+
+@mixin pad__hor($size){
+	 padding-left: $size;
+   padding-right: $size;
+}
+
+@mixin pad__ver($size){
+	 padding-top: $size;
+   padding-bottom: $size;
+}
+
+@mixin pad__single($direction, $size){
+	padding-#{$direction}: $size;
+}
+

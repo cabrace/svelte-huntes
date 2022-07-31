@@ -1,0 +1,37 @@
+/*
+	Colours Palette
+*/
+
+//Names
+//$bird-flower: #c8db1c;
+$drover: #fef5b2;
+$saffron: #f7c825;
+$perfume: #cab3f5;
+$lavender-magenta: #ec91db;
+$trendy-green: #7c8813;
+$moon-raker: #e5daf7;
+$rio-grande: #bcd00c;
+$pizazz: #FF9800;
+
+$steel-grey: #1f1f30;
+
+//Shades of green: lightest to darkest
+$bird-flower: #c8db1c;
+$key-lime-pie: #b1c119;
+$saratoga: #545b0c;
+$pine-tree: #191c04;
+$woodsmoke: #121403;
+
+
+$accent-green--bright: $rio-grande;
+//Associations 
+$accent-purple: 	  $perfume;
+$accent-tranquil:   $moon-raker;
+$accent-pink: 		  $lavender-magenta;
+$accent-green:			$bird-flower;
+$primary-yellow:		$saffron;
+$primary-beige:			$drover;
+$tranquil:					$moon-raker;
+
+//Remapping, multiple areas: further associations
+$primary-text-colour: $drover;

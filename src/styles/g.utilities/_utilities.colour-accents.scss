@@ -1,0 +1,32 @@
+/* COLOUR ACCENTS */
+
+.accent{
+ //font-family: "Huxtable";
+ font-size: 1.1rem;
+
+ &--green{
+  @extend .accent;
+  color: $accent-green;
+ }
+
+ &--purple{
+  @extend .accent;
+  color: $accent-purple;
+ }
+
+ &--pink{
+  @extend .accent;
+  color: $accent-pink;
+ }
+
+ &--yellow{
+  @extend .accent;
+  color: $primary-yellow;
+ }
+
+ &--tranquil{
+  @extend .accent;
+  color: $accent-tranquil;
+ }
+
+}
