@@ -1,27 +1,27 @@
 
 @font-face{
 	font-family: "Huxtable";
-	src: asset-url('huxtable.ttf') format('truetype');
+	src: url('huxtable.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: "Futura-lt";
-	src: asset-url('futuralt.ttf') format('truetype');
+	src: url('futuralt.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: "Futura-co";
-	src: asset-url('futuracon.ttf') format('truetype');
+	src: url('futuracon.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: "PT Sans Regular";
-	src: asset-url('ptsansregular.ttf') format('truetype');
+	src: url('ptsansregular.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: "DejaVuSans";
-	src: asset-url('DejaVuSans-ExtraLight.ttf') format('truetype');
+	src: url('DejaVuSans-ExtraLight.ttf') format('truetype');
 }
 
 // Used for lightgallery

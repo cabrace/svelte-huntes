@@ -8,7 +8,7 @@ footer{
   //p {float:left; width:320px; padding-top:0px; font-family:Tahoma, Geneva, sans-serif; line-height:18px; font-size:12px; }
   //p a {color:#717171; text-decoration:underline;}
 	//p a:hover {text-decoration:underline; color:#fff;}
-	//background: image-url('Leaves-Pattern-300px.png') 0 0 repeat fixed;
+	//background: url('Leaves-Pattern-300px.png') 0 0 repeat fixed;
 	//padding: 24px 0px 20px 0px;
 	//background: $woodsmoke;
 	//background: #121403a6;
@@ -84,7 +84,7 @@ footer{
 			padding: 10px 0px;
 			text-align:center;
 			&:hover{
-			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), asset-url("bg-map-overlay.jpg");
+			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), url("bg-map-overlay.jpg");
 			//opacity: 0.3;
 			//color: #f7c825;
 			}

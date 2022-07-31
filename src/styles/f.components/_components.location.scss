@@ -25,7 +25,7 @@
 			padding: 10px 40px;
 			text-align:center;
 			&:hover{
-			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), asset-url("bg-map-overlay.jpg");
+			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), url("bg-map-overlay.jpg");
 			//opacity: 0.3;
 			//color: #f7c825;
 			}
@@ -61,7 +61,7 @@
 			//width: 100%;
 			margin: 0 auto;
 			&:hover{
-			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), asset-url("bg-map-overlay.jpg");
+			//background: linear-gradient(rgba(13, 38, 6, 0.4),rgba(13, 38, 6, 0.4)), url("bg-map-overlay.jpg");
 			//opacity: 0.3;
 			//color: #f7c825;
 			}

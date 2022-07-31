@@ -2,7 +2,7 @@
 
 //@font-face{
 //font-family: "Huxtable", sans-serif;
-//src: asset-url("huxtable.ttf") format('truetype');
+//src: url("huxtable.ttf") format('truetype');
 //}
 
 
@@ -165,19 +165,19 @@
 
 		&-1{
 			@extend .image;
-			background-image: image-url("page1-img1.jpg");
+			background-image: url("page1-img1.jpg");
 		}
 		&-2{
 			@extend .image;
-			background-image: image-url("page1-img2.jpg");
+			background-image: url("page1-img2.jpg");
 		}
 		&-3{
 			@extend .image;
-			background-image: image-url("page1-img3.jpg");
+			background-image: url("page1-img3.jpg");
 		}
 		&-4{
 			@extend .image;
-			background-image: image-url("page1-img4.jpg");
+			background-image: url("page1-img4.jpg");
 		}
 	}
 
@@ -257,7 +257,7 @@ img{
 		color: $accent-green;
 	}
 	& > img{
-		background-image: image-url("page1-img1.jpg");
+		background-image: url("page1-img1.jpg");
 		background-attachment: unset;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -297,7 +297,7 @@ img{
 
 
 .intro-img-1 {
-	background-image: image-url("page1-img1.jpg");
+	background-image: url("page1-img1.jpg");
 	background-attachment: unset;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -364,7 +364,7 @@ nav {
 	background-color: rgba(0, 0, 0, 0.7);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	border-bottom: 1px solid #ffeb3bb0; //#c9db1c;
-	//background: asset-url('bg-green-strip.jpg') repeat fixed;
+	//background: url('bg-green-strip.jpg') repeat fixed;
 	//background: #4c5705cc;
 }
 
@@ -450,7 +450,7 @@ h1 {
 	//text-transform:uppercase; 
 	text-shadow: #000 /*#50381b*/ 2px 2px 2px; 
 	letter-spacing:1px; margin:11px 0 0 0; 
-	background:image-url('slogan.png') center bottom no-repeat; 
+	background:url('slogan.png') center bottom no-repeat; 
 	padding-bottom:46px;
 }
 
@@ -465,7 +465,7 @@ ul.menu {margin:10px 0px 0px 0px; display:inline--block;}
 
 //.banner{
 
-	//background-image: image-url("cover-photo-4-cropped.jpg");
+	//background-image: url("cover-photo-4-cropped.jpg");
 	//height: 280px;
 	//width: 100%;
 
@@ -509,7 +509,7 @@ ul.menu {margin:10px 0px 0px 0px; display:inline--block;}
 				//text-shadow: #000 2px 2px 2px;
 				//letter-spacing: 1px;
 				//margin: 11px 0 0 0;
-				//background: asset-url("slogan.png") center bottom no-repeat;
+				//background: url("slogan.png") center bottom no-repeat;
 				//padding-bottom: 46px;
 			//}
 		//}
