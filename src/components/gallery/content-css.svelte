@@ -31,7 +31,7 @@
 </style>
 <script>
 
-  
+ /** 
 
 // Svelte stuff
 import jQuery from 'jquery';
@@ -127,7 +127,7 @@ for (const image in imageList){
   // }
 
 
-
+**/
 
 </script>
 

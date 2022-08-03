@@ -1,8 +1,8 @@
 <script>
   /* import '../styles/nav.scss'; */
-  import '../app.scss'
-  import Banner from '../components/banner/banner--gallery.svelte';
-  import Content from '../components/gallery/content-css.svelte';
+  /* import '../app.scss' */
+  /* import Banner from '../components/banner/banner--gallery.svelte'; */
+  /* import Content from '../components/gallery/content-css.svelte'; */
 
 </script>
 

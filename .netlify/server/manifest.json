@@ -1,0 +1,590 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ]
+  },
+  "src/routes/bulma.svelte": {
+    "file": "entries/pages/bulma.svelte.js",
+    "src": "src/routes/bulma.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ]
+  },
+  "src/routes/directions.svelte": {
+    "file": "entries/pages/directions.svelte.js",
+    "src": "src/routes/directions.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ],
+    "css": [
+      "assets/entries/pages/directions.svelte-74f44c51.css",
+      "assets/app-3232fea4.css"
+    ]
+  },
+  "src/routes/gallery-css.svelte": {
+    "file": "entries/pages/gallery-css.svelte.js",
+    "src": "src/routes/gallery-css.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ]
+  },
+  "src/routes/gallery.svelte": {
+    "file": "entries/pages/gallery.svelte.js",
+    "src": "src/routes/gallery.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ],
+    "dynamicImports": [
+      "static/gallery/375/001.jpg",
+      "static/gallery/375/002.jpg",
+      "static/gallery/375/004.jpg",
+      "static/gallery/375/005.jpg",
+      "static/gallery/375/007.jpg",
+      "static/gallery/375/008.jpg",
+      "static/gallery/375/009.jpg",
+      "static/gallery/375/010.jpg",
+      "static/gallery/375/011.jpg",
+      "static/gallery/375/012.jpg",
+      "static/gallery/375/013.jpg",
+      "static/gallery/375/014.jpg",
+      "static/gallery/375/015.jpg",
+      "static/gallery/375/016.jpg",
+      "static/gallery/375/017.jpg",
+      "static/gallery/375/018.jpg",
+      "static/gallery/375/019.jpg",
+      "static/gallery/375/020.jpg",
+      "static/gallery/375/022.jpg",
+      "static/gallery/375/023.jpg",
+      "static/gallery/375/024.jpg",
+      "static/gallery/375/025.jpg",
+      "static/gallery/375/026.jpg",
+      "static/gallery/375/027.jpg",
+      "static/gallery/375/028.jpg",
+      "static/gallery/375/029.jpg",
+      "static/gallery/375/031.jpg",
+      "static/gallery/375/032.jpg",
+      "static/gallery/375/033.jpg",
+      "static/gallery/375/034.jpg",
+      "static/gallery/375/035.jpg",
+      "static/gallery/375/036.jpg",
+      "static/gallery/375/037.jpg",
+      "static/gallery/375/038.jpg",
+      "static/gallery/375/039.jpg",
+      "static/gallery/375/040.jpg",
+      "static/gallery/375/041.jpg",
+      "static/gallery/375/042.jpg",
+      "static/gallery/375/043.jpg",
+      "static/gallery/375/044.jpg",
+      "static/gallery/375/045.jpg",
+      "static/gallery/375/046.jpg",
+      "static/gallery/375/047.jpg",
+      "static/gallery/375/049.jpg",
+      "static/gallery/375/050.jpg",
+      "static/gallery/375/051.jpg",
+      "static/gallery/375/052.jpg",
+      "static/gallery/375/053.jpg",
+      "static/gallery/375/054.jpg",
+      "static/gallery/375/055.jpg",
+      "static/gallery/375/056.jpg",
+      "static/gallery/375/057.jpg",
+      "static/gallery/375/058.jpg",
+      "static/gallery/375/059.jpg"
+    ],
+    "css": [
+      "assets/entries/pages/gallery.svelte-ce443b2b.css",
+      "assets/app-3232fea4.css"
+    ],
+    "assets": [
+      "assets/lg-22b72ba5.ttf",
+      "assets/lg-fefc5c0d.woff",
+      "assets/lg-f2fe1c00.svg",
+      "assets/loading-298ad3ff.gif"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-88dff8a6.js"
+    ],
+    "css": [
+      "assets/app-3232fea4.css"
+    ]
+  },
+  "_index-88dff8a6.js": {
+    "file": "chunks/index-88dff8a6.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  },
+  "static/gallery/375/001.jpg": {
+    "file": "chunks/001-e49b5d28.js",
+    "src": "static/gallery/375/001.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/001-5c270cef.jpg"
+    ]
+  },
+  "static/gallery/375/002.jpg": {
+    "file": "chunks/002-f6063cb0.js",
+    "src": "static/gallery/375/002.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/002-ab768707.jpg"
+    ]
+  },
+  "static/gallery/375/004.jpg": {
+    "file": "chunks/004-21ff4031.js",
+    "src": "static/gallery/375/004.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/004-79dd4378.jpg"
+    ]
+  },
+  "static/gallery/375/005.jpg": {
+    "file": "chunks/005-b9936005.js",
+    "src": "static/gallery/375/005.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/005-539d8735.jpg"
+    ]
+  },
+  "static/gallery/375/007.jpg": {
+    "file": "chunks/007-cce76160.js",
+    "src": "static/gallery/375/007.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/007-a3fc0444.jpg"
+    ]
+  },
+  "static/gallery/375/008.jpg": {
+    "file": "chunks/008-75a9364c.js",
+    "src": "static/gallery/375/008.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/008-ceef1082.jpg"
+    ]
+  },
+  "static/gallery/375/009.jpg": {
+    "file": "chunks/009-7bfac357.js",
+    "src": "static/gallery/375/009.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/009-fcdef410.jpg"
+    ]
+  },
+  "static/gallery/375/010.jpg": {
+    "file": "chunks/010-70295463.js",
+    "src": "static/gallery/375/010.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/010-1b3b0e82.jpg"
+    ]
+  },
+  "static/gallery/375/011.jpg": {
+    "file": "chunks/011-4bba4bec.js",
+    "src": "static/gallery/375/011.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/011-14baacfd.jpg"
+    ]
+  },
+  "static/gallery/375/012.jpg": {
+    "file": "chunks/012-cd630636.js",
+    "src": "static/gallery/375/012.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/012-10eab9a9.jpg"
+    ]
+  },
+  "static/gallery/375/013.jpg": {
+    "file": "chunks/013-00343d9c.js",
+    "src": "static/gallery/375/013.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/013-e0730470.jpg"
+    ]
+  },
+  "static/gallery/375/014.jpg": {
+    "file": "chunks/014-96d3e967.js",
+    "src": "static/gallery/375/014.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/014-3f83ea08.jpg"
+    ]
+  },
+  "static/gallery/375/015.jpg": {
+    "file": "chunks/015-15d09903.js",
+    "src": "static/gallery/375/015.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/015-9dc0a84d.jpg"
+    ]
+  },
+  "static/gallery/375/016.jpg": {
+    "file": "chunks/016-a5343013.js",
+    "src": "static/gallery/375/016.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/016-35ad588d.jpg"
+    ]
+  },
+  "static/gallery/375/017.jpg": {
+    "file": "chunks/017-ca2557bf.js",
+    "src": "static/gallery/375/017.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/017-08112d36.jpg"
+    ]
+  },
+  "static/gallery/375/018.jpg": {
+    "file": "chunks/018-2f712baa.js",
+    "src": "static/gallery/375/018.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/018-c540fe2b.jpg"
+    ]
+  },
+  "static/gallery/375/019.jpg": {
+    "file": "chunks/019-174b0c70.js",
+    "src": "static/gallery/375/019.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/019-0edcc050.jpg"
+    ]
+  },
+  "static/gallery/375/020.jpg": {
+    "file": "chunks/020-7b0207f8.js",
+    "src": "static/gallery/375/020.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/020-11d949a9.jpg"
+    ]
+  },
+  "static/gallery/375/022.jpg": {
+    "file": "chunks/022-1a5f9242.js",
+    "src": "static/gallery/375/022.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/022-829ca943.jpg"
+    ]
+  },
+  "static/gallery/375/023.jpg": {
+    "file": "chunks/023-0f9c9400.js",
+    "src": "static/gallery/375/023.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/023-0136de00.jpg"
+    ]
+  },
+  "static/gallery/375/024.jpg": {
+    "file": "chunks/024-73883751.js",
+    "src": "static/gallery/375/024.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/024-24109387.jpg"
+    ]
+  },
+  "static/gallery/375/025.jpg": {
+    "file": "chunks/025-b60141c2.js",
+    "src": "static/gallery/375/025.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/025-28cdbb77.jpg"
+    ]
+  },
+  "static/gallery/375/026.jpg": {
+    "file": "chunks/026-2642f6fe.js",
+    "src": "static/gallery/375/026.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/026-261d299b.jpg"
+    ]
+  },
+  "static/gallery/375/027.jpg": {
+    "file": "chunks/027-ab0296a7.js",
+    "src": "static/gallery/375/027.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/027-bc239cbb.jpg"
+    ]
+  },
+  "static/gallery/375/028.jpg": {
+    "file": "chunks/028-bbaccfbc.js",
+    "src": "static/gallery/375/028.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/028-dc425eab.jpg"
+    ]
+  },
+  "static/gallery/375/029.jpg": {
+    "file": "chunks/029-0914eac2.js",
+    "src": "static/gallery/375/029.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/029-74e9f6ea.jpg"
+    ]
+  },
+  "static/gallery/375/031.jpg": {
+    "file": "chunks/031-09b0b942.js",
+    "src": "static/gallery/375/031.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/031-ec1a9afa.jpg"
+    ]
+  },
+  "static/gallery/375/032.jpg": {
+    "file": "chunks/032-11561d22.js",
+    "src": "static/gallery/375/032.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/032-a987e268.jpg"
+    ]
+  },
+  "static/gallery/375/033.jpg": {
+    "file": "chunks/033-0d6cfd84.js",
+    "src": "static/gallery/375/033.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/033-aa0dc09d.jpg"
+    ]
+  },
+  "static/gallery/375/034.jpg": {
+    "file": "chunks/034-47b2da6b.js",
+    "src": "static/gallery/375/034.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/034-d353f206.jpg"
+    ]
+  },
+  "static/gallery/375/035.jpg": {
+    "file": "chunks/035-bc4963d3.js",
+    "src": "static/gallery/375/035.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/035-2680aa9f.jpg"
+    ]
+  },
+  "static/gallery/375/036.jpg": {
+    "file": "chunks/036-6f721cd2.js",
+    "src": "static/gallery/375/036.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/036-7c596913.jpg"
+    ]
+  },
+  "static/gallery/375/037.jpg": {
+    "file": "chunks/037-c0c16a50.js",
+    "src": "static/gallery/375/037.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/037-9a20314c.jpg"
+    ]
+  },
+  "static/gallery/375/038.jpg": {
+    "file": "chunks/038-86ae2849.js",
+    "src": "static/gallery/375/038.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/038-9ee026a1.jpg"
+    ]
+  },
+  "static/gallery/375/039.jpg": {
+    "file": "chunks/039-0c83e7de.js",
+    "src": "static/gallery/375/039.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/039-ae77851b.jpg"
+    ]
+  },
+  "static/gallery/375/040.jpg": {
+    "file": "chunks/040-51fa2ef3.js",
+    "src": "static/gallery/375/040.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/040-565a454f.jpg"
+    ]
+  },
+  "static/gallery/375/041.jpg": {
+    "file": "chunks/041-2ffeb62b.js",
+    "src": "static/gallery/375/041.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/041-4808a407.jpg"
+    ]
+  },
+  "static/gallery/375/042.jpg": {
+    "file": "chunks/042-f6c2142e.js",
+    "src": "static/gallery/375/042.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/042-fd9fef84.jpg"
+    ]
+  },
+  "static/gallery/375/043.jpg": {
+    "file": "chunks/043-1c363573.js",
+    "src": "static/gallery/375/043.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/043-56199862.jpg"
+    ]
+  },
+  "static/gallery/375/044.jpg": {
+    "file": "chunks/044-3b13cfa4.js",
+    "src": "static/gallery/375/044.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/044-a1dce121.jpg"
+    ]
+  },
+  "static/gallery/375/045.jpg": {
+    "file": "chunks/045-0b3fa607.js",
+    "src": "static/gallery/375/045.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/045-7872ce2b.jpg"
+    ]
+  },
+  "static/gallery/375/046.jpg": {
+    "file": "chunks/046-9795ac97.js",
+    "src": "static/gallery/375/046.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/046-59b6f156.jpg"
+    ]
+  },
+  "static/gallery/375/047.jpg": {
+    "file": "chunks/047-0988ac67.js",
+    "src": "static/gallery/375/047.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/047-7f45451e.jpg"
+    ]
+  },
+  "static/gallery/375/049.jpg": {
+    "file": "chunks/049-10f8f2d2.js",
+    "src": "static/gallery/375/049.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/049-70c9d9aa.jpg"
+    ]
+  },
+  "static/gallery/375/050.jpg": {
+    "file": "chunks/050-de212bd0.js",
+    "src": "static/gallery/375/050.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/050-43556b71.jpg"
+    ]
+  },
+  "static/gallery/375/051.jpg": {
+    "file": "chunks/051-0563544a.js",
+    "src": "static/gallery/375/051.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/051-736b1f18.jpg"
+    ]
+  },
+  "static/gallery/375/052.jpg": {
+    "file": "chunks/052-84bc12d0.js",
+    "src": "static/gallery/375/052.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/052-8248c477.jpg"
+    ]
+  },
+  "static/gallery/375/053.jpg": {
+    "file": "chunks/053-a7f0ed6b.js",
+    "src": "static/gallery/375/053.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/053-4875c7dd.jpg"
+    ]
+  },
+  "static/gallery/375/054.jpg": {
+    "file": "chunks/054-5c4e5e1f.js",
+    "src": "static/gallery/375/054.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/054-b9c7da2b.jpg"
+    ]
+  },
+  "static/gallery/375/055.jpg": {
+    "file": "chunks/055-10f5c949.js",
+    "src": "static/gallery/375/055.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/055-5f780fb5.jpg"
+    ]
+  },
+  "static/gallery/375/056.jpg": {
+    "file": "chunks/056-4bd8e113.js",
+    "src": "static/gallery/375/056.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/056-4a6722b2.jpg"
+    ]
+  },
+  "static/gallery/375/057.jpg": {
+    "file": "chunks/057-a8fec713.js",
+    "src": "static/gallery/375/057.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/057-7b3db753.jpg"
+    ]
+  },
+  "static/gallery/375/058.jpg": {
+    "file": "chunks/058-e38ec79c.js",
+    "src": "static/gallery/375/058.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/058-5658b5e2.jpg"
+    ]
+  },
+  "static/gallery/375/059.jpg": {
+    "file": "chunks/059-1216cf5b.js",
+    "src": "static/gallery/375/059.jpg",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/059-0c0d2850.jpg"
+    ]
+  }
+}

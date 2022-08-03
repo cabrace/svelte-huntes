@@ -59,7 +59,7 @@ onMount(async()=> {
 	<div id="responsiveTabsDemo" class="info__well--noshadow tabs">
 
 	<section class="map"> 
-	<div id="map" style="width:300px;height:300px;"></div>
+	<div id="map" style=""></div>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsVMUiCe8am-w83iXrXJMniVvhFk9ioxc&callback=initMap"></script> -->
 	</section>
 

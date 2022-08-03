@@ -42,8 +42,8 @@ import { onMount } from "svelte";
 import lightgallery from 'lightgallery';
 
   // LG --> Plugins
-import lgThumbnail from 'lightgallery/plugins/thumbnail';
-import lgZoom from 'lightgallery/plugins/zoom';
+import lgThumbnail from '$lib/lightgallery/plugins/thumbnail';
+import lgZoom from '$lib/lightgallery/plugins/zoom';
 
   // LG --> Styling
 import "$lib/lightgallery/css/lightgallery.css";

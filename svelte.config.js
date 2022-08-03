@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
     alias: {
-      // $static: 'src/static'
+      $static: 'src/static'
     },
 		vite: {
 			css: {
@@ -18,16 +18,16 @@ const config = {
 			}
 		}
 	},
-  moduleExtensions: ['.js', '.ts'],
-  files: {
-    assets: 'static',
-    hooks: 'src/hooks',
-    lib: 'src/lib',
-    params: 'src/params',
-    routes: 'src/routes',
-    serviceWorker: 'src/service-worker',
-    template: 'src/app.html'
-  },
+   moduleExtensions: ['.js', '.ts'],
+    files: {
+      assets: 'static',
+      hooks: 'src/hooks',
+      lib: 'src/lib',
+      params: 'src/params',
+      routes: 'src/routes',
+      serviceWorker: 'src/service-worker',
+      template: 'src/app.html'
+    },
 	preprocess: [
 		preprocess({
 			postcss: true,
